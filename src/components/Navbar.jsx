@@ -1,6 +1,8 @@
 import React from "react";
 import { FiSun } from "react-icons/fi";
 import { GiMoon } from "react-icons/gi";
+import { BiMenu } from "react-icons/bi";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
@@ -38,6 +40,51 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <GiMoon size={20} color={"gray"} />
             )}
           </button>
+          <div className="md:hidden">
+            <button
+              type="button"
+              className=""
+              aria-controls=",online-menu"
+              aria-expanded="false"
+              onClick={toggleMenu}
+            >
+              <BiMenu
+                size={26}
+                className={`${
+                  isOpen ? "hidden" : "block"
+                } text-gray-700 dark:text-gray-300`}
+              />
+              <AiOutlineClose
+                size={24}
+                className={`${
+                  isOpen ? "block" : "hidden"
+                } h-6 w-6 dark:text-gray-400`}
+              />
+            </button>
+          </div>
+        </div>
+        {/*Mobile menu */}
+        <div
+          className={`${isOpen ? "block pt-4" : "hidden"} md:hidden`}
+          id="mobile-menu"
+        >
+          <div className="flex flex-col gap-4 text-md text-gray-700 dark:text-neutral-200">
+            <a href="#home" onClick={toggleMenu} className="cursor-pointer">
+              Home
+            </a>
+            <a href="#about" onClick={toggleMenu} className="cursor-pointer">
+              About
+            </a>
+            <a href="#skills" onClick={toggleMenu} className="cursor-pointer">
+              Skills
+            </a>
+            <a href="#projects" onClick={toggleMenu} className="cursor-pointer">
+              Projects
+            </a>
+            <a href="#contacts" onClick={toggleMenu} className="cursor-pointer">
+              Contacts
+            </a>
+          </div>
         </div>
       </div>
     </div>
