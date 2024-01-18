@@ -2,8 +2,11 @@ import { useState } from "react";
 
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
+import WorkStat from "./components/WorkStat";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/WorkStat";
+import Footer from "./components/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -33,13 +36,19 @@ function App() {
           </section>
         </div>
         <section className="w-full bg-[#061130] py-20 ">
-          <Projects />
+          <WorkStat />
         </section>
         <section
           id="about"
           className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
         >
           <About />
+        </section>
+        <section
+          id="skills"
+          className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
+        >
+          <Skills />
         </section>
       </div>
     </div>

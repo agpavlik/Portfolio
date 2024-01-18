@@ -81,8 +81,8 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <a href="#projects" onClick={toggleMenu} className="cursor-pointer">
               Projects
             </a>
-            <a href="#contacts" onClick={toggleMenu} className="cursor-pointer">
-              Contacts
+            <a href="#contact" onClick={toggleMenu} className="cursor-pointer">
+              Contact
             </a>
           </div>
         </div>

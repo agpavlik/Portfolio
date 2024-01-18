@@ -1,8 +1,9 @@
 import React from "react";
 import { Profile } from "../assets";
 import { FaUserAlt } from "react-icons/fa";
-import { MdOutlineAlternateEmail, MdWifiCalling2 } from "react-icons/md";
-import { BsWhatsapp } from "react-icons/bs";
+import { MdOutlineAlternateEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function About() {
   return (
@@ -30,17 +31,20 @@ function About() {
           <FaUserAlt size={14} /> Alex Pavlyk
         </p>
         <p className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer">
-          <MdOutlineAlternateEmail size={14} /> olekpavlyk@gmail.com
+          <MdOutlineAlternateEmail size={20} /> olekpavlyk@gmail.com
         </p>
         <a
-          href="https://wa.me/+123"
+          href="https://www.linkedin.com/in/alex-pavlyk/"
           className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer"
         >
-          <BsWhatsapp size={14} /> +123
+          <FaLinkedin size={20} /> LinkedIn
         </a>
-        <p className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer">
-          <MdWifiCalling2 size={14} /> +123
-        </p>
+        <a
+          href="https://github.com/agpavlik"
+          className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer"
+        >
+          <FaGithub size={20} /> GitHub
+        </a>
       </div>
     </div>
   );

@@ -51,28 +51,28 @@ export const tools = [
     icon: Reactjs,
   },
   {
-    name: "NodeJs",
+    name: "NodeJS",
     icon: Nodejs,
   },
   {
-    name: "NextJs",
+    name: "NextJS",
     icon: Nextjs2,
   },
 ];
 
 export const skills = [
   {
-    name: "ReactJs",
+    name: "ReactJS",
     value: 98,
     icon: Reactjs,
   },
   {
-    name: "NodeJs",
+    name: "NodeJS",
     value: 96,
     icon: Nodejs,
   },
   {
-    name: "NextJs",
+    name: "NextJS",
     value: 97,
     icon: Nextjs,
   },
