@@ -25,6 +25,16 @@ const Header = () => {
           Full-Stack Web Developer with ability to learn and collaborate in
           rapidly changing environments and compositions
         </p>
+        <div className="mt-10 flex gap-10">
+          <button className="bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5">
+            RESUME
+          </button>
+          <a href="#projects">
+            <button className="text-lg text-white fonnt-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
+              Projects
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
