@@ -4,7 +4,14 @@ import { Mongodb, Nodejs, Profile, Reactjs, Redux } from "../assets";
 const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-4 md:px-10 gap-10 2xl:gap-20 py-20">
-      <div className="flex flex-col mb-20 lg:mb-0">
+      <div
+        className="flex flex-col mb-20 lg:mb-0"
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <span className="text-lg font-bold text-orange-700">
           FULL-STACK DEVELOPER
         </span>
@@ -41,8 +48,20 @@ const Header = () => {
           <img
             src={Profile}
             className="w-auto h-full absolute -top-5 md:-top-10"
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
           />
-          <div className="relative w-full h-full rounded-full">
+          <div
+            className="relative w-full h-full rounded-full"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <img
               src={Reactjs}
               className="absolute top-7 md:top-20 left-3 2xl:left-2 w-12 h-12 md:w-16 md:h-16"

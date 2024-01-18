@@ -15,6 +15,11 @@ function Skills() {
           <div
             key={index}
             className="flex gap-4 shadow-lg py-2 px-6 bg-[#04133e] rounded-full items-center hover:animate-bounce ease-in-out duration-3 00"
+            data-aos="zoom-in-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
           >
             <div className="w-10 h-10">
               <img src={skill.icon} className="w-full h-full rounded-full" />
