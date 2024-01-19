@@ -3,6 +3,7 @@ import { FiSun } from "react-icons/fi";
 import { GiMoon } from "react-icons/gi";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import { GoHome } from "react-icons/go";
 
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
@@ -13,12 +14,14 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             href="/"
             className="text-2xl font-bold text-blue-500 cursor-pointer"
           >
-            Portfolio
+            <GoHome
+              className={`${darkMode ? "text-white" : "text-blue-500"}`}
+            />
           </a>
           <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
-            <li className="cursor-pointer hover:text-blue-500 ">
+            {/* <li className="cursor-pointer hover:text-blue-500 ">
               <a href="#home">Home</a>
-            </li>
+            </li> */}
             <li className="cursor-pointer hover:text-blue-500 ">
               <a href="#about">About</a>
             </li>
@@ -37,7 +40,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             {darkMode ? (
               <FiSun size={20} color={"white"} />
             ) : (
-              <GiMoon size={20} color={"gray"} />
+              <GiMoon size={20} color={"#3b82f6"} />
             )}
           </button>
           <div className="md:hidden">
@@ -52,13 +55,13 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
                 size={26}
                 className={`${
                   isOpen ? "hidden" : "block"
-                } text-gray-700 dark:text-gray-300`}
+                } text-gray-700 dark:text-white`}
               />
               <AiOutlineClose
                 size={24}
                 className={`${
                   isOpen ? "block" : "hidden"
-                } h-6 w-6 dark:text-gray-400`}
+                } h-6 w-6 dark:text-gray-200`}
               />
             </button>
           </div>
