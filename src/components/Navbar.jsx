@@ -10,6 +10,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
     <div className="px-0 2xl:px-40">
       <div className="w-full items-center justify-between py-4 px-10">
         <div className="flex items-center justify-between w-full">
+          {/*===== Home icon start =====*/}
           <a
             href="/"
             className="text-2xl font-bold text-blue-500 cursor-pointer"
@@ -18,6 +19,9 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               className={`${darkMode ? "text-white" : "text-blue-500"}`}
             />
           </a>
+          {/*===== Home icon end =====*/}
+
+          {/*===== Menu start=====*/}
           <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
             {/* <li className="cursor-pointer hover:text-blue-500 ">
               <a href="#home">Home</a>
@@ -36,6 +40,9 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <a href="#contact">Contact</a>
             </li>
           </ul>
+          {/*===== Menu end =====*/}
+
+          {/*===== Dark mode button start =====*/}
           <button onClick={toggleTheme} className="p-2">
             {darkMode ? (
               <FiSun size={20} color={"white"} />
@@ -43,6 +50,9 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <GiMoon size={20} color={"#3b82f6"} />
             )}
           </button>
+          {/*===== Dark mode button end =====*/}
+
+          {/*===== Mobile menu icon start =====*/}
           <div className="md:hidden">
             <button
               type="button"
@@ -65,16 +75,14 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               />
             </button>
           </div>
+          {/*===== Mobile menu icon end =====*/}
         </div>
-        {/*Mobile menu */}
+        {/*===== Mobile menu start=====*/}
         <div
           className={`${isOpen ? "block pt-4" : "hidden"} md:hidden`}
           id="mobile-menu"
         >
           <div className="flex flex-col gap-4 text-md text-gray-700 dark:text-neutral-200">
-            <a href="#home" onClick={toggleMenu} className="cursor-pointer">
-              Home
-            </a>
             <a href="#about" onClick={toggleMenu} className="cursor-pointer">
               About
             </a>
@@ -89,6 +97,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             </a>
           </div>
         </div>
+        {/*===== Mobile menu end=====*/}
       </div>
     </div>
   );

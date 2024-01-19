@@ -27,39 +27,22 @@ function App() {
     <div
       className={`w-full h-full min-h-[100vh] bg-white ${darkMode && "dark"}`}
     >
+      <nav className="z-10 fixed w-full top-0 left-0 bg-white dark:bg-[#061130]">
+        <Navbar
+          darkMode={darkMode}
+          isOpen={isOpen}
+          toggleMenu={toggleMenu}
+          toggleTheme={toggleTheme}
+        />
+      </nav>
       <div className="w-full h-full min-h-[100vh] bg-white">
         <div className="dark:bg-gradient-to-tr from-[#0235a3] via-[#030a1c] to-[#05174e]">
-          <Navbar
-            darkMode={darkMode}
-            isOpen={isOpen}
-            toggleMenu={toggleMenu}
-            toggleTheme={toggleTheme}
-          />
-          <section id="home" className="px-0 lg:px-5 2xl:px-40 py-10 lg:py-0">
-            <Header />
-          </section>
+          <Header />
         </div>
-        <section className="w-full bg-[#061130] py-20 ">
-          <WorkStat />
-        </section>
-        <section
-          id="about"
-          className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
-        >
-          <About />
-        </section>
-        <section
-          id="skills"
-          className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
-        >
-          <Skills />
-        </section>
-        <section
-          id="projects"
-          className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
-        >
-          <Projects />
-        </section>
+        <WorkStat />
+        <About />
+        <Skills />
+        <Projects />
       </div>
       <div
         id="contact"
