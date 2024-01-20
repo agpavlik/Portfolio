@@ -1,12 +1,55 @@
 import React from "react";
 import { projects } from "../data";
+import { BsGlobe } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 const Modal = ({ activeID, setShowModal }) => {
   const project = projects.find((project) => project.id === activeID);
 
   return (
-    <div>
-      <img src={project.img} alt="" />
+    <div className="w-full h-full fixed top-0 left-0 z-10 bg-[#04133e] bg-opacity-70">
+      <div className="w-[500px] h-[500px] absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
+        <div>
+          <figure>
+            <img className="rounded-[8px]" src={project.img} alt="" />
+          </figure>
+        </div>
+        <div>
+          <h2 className="text-2xl text-black font-[700] my-5">
+            {project.title}
+          </h2>
+          <p className="text-[15px] leading-7 text-black">
+            {project.description}
+          </p>
+          <div className="mt-5 flex items-center gap-3 flex-wrap">
+            <h4 className="text-black text-[18px] text-[700]">Technologies:</h4>
+            {project.technologies.map((item, index) => (
+              <span
+                key={index}
+                className="bg-gray-200 py-1 px-2 rounded-[5px] text-[14px] leading-0"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+          <a href={project.url}>
+            <button className="py-1 px-1 my-5 mr-7 ml-4 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6]">
+              <BsGlobe size={24} color={"white"} />
+            </button>
+          </a>
+          <a href={project.git}>
+            <button className="py-1 px-1 my-5 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6]">
+              <BsGithub size={24} color={"white"} />
+            </button>
+          </a>
+        </div>
+        <button
+          onClick={() => setShowModal(false)}
+          className="w-[1.5rem] h-[1.5rem] bg-white absolute top-[1.7rem] right-[1.7rem] text-[25px] flex items-center justify-center rounded-[5px] leading-0"
+        >
+          &times;
+        </button>
+      </div>
     </div>
   );
 };

@@ -111,6 +111,7 @@ export const projects = [
     description: "lorem",
     technologies: ["React", "CSS"],
     url: "",
+    git: "",
     img: admin,
   },
   {
@@ -120,6 +121,7 @@ export const projects = [
     description: "lorem",
     technologies: ["React", "CSS"],
     url: "",
+    git: "",
     img: port1,
   },
   {
@@ -129,6 +131,7 @@ export const projects = [
     description: "lorem",
     technologies: ["React", "CSS"],
     url: "",
+    git: "",
     img: port2,
   },
   {
@@ -138,6 +141,7 @@ export const projects = [
     description: "lorem",
     technologies: ["React", "CSS"],
     url: "",
+    git: "",
     img: port3,
   },
   {
@@ -147,6 +151,7 @@ export const projects = [
     description: "lorem",
     technologies: ["React", "CSS"],
     url: "",
+    git: "",
     img: food,
   },
   {
@@ -156,6 +161,7 @@ export const projects = [
     description: "lorem",
     technologies: ["React", "CSS"],
     url: "",
+    git: "",
     img: social,
   },
   {
@@ -165,6 +171,7 @@ export const projects = [
     description: "lorem",
     technologies: ["React", "CSS"],
     url: "",
+    git: "",
     img: food1,
   },
 ];
