@@ -1,6 +1,6 @@
 import React from "react";
 import { FiSun } from "react-icons/fi";
-import { GiMoon } from "react-icons/gi";
+import { IoMoonOutline } from "react-icons/io5";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { GoHome } from "react-icons/go";
@@ -47,7 +47,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             {darkMode ? (
               <FiSun size={20} color={"white"} />
             ) : (
-              <GiMoon size={20} color={"#3b82f6"} />
+              <IoMoonOutline size={20} color={"#3b82f6"} />
             )}
           </button>
           {/*===== Dark mode button end =====*/}
