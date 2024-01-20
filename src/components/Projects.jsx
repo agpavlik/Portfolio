@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { projects } from "../data";
+import Modal from "./Modal";
 
 function Projects() {
+  const [showModal, setShowModal] = useState(false);
+  const [activeID, setActiveID] = useState(null);
+
+  const showModalHandler = (id) => {
+    setShowModal(true);
+    setActiveID(id);
+  };
+
   return (
     <section
       id="projects"
@@ -13,7 +22,7 @@ function Projects() {
         </h4>
 
         <div className="flex flex-wrap gap-10 lg:gap-20 justify-center ">
-          {projects.map((p, index) => (
+          {projects.map((project, index) => (
             <div
               data-aos="fade-up"
               data-aos-offset="200"
@@ -24,21 +33,34 @@ function Projects() {
               className="group w-[350px] h-[300px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
             >
               <img
-                src={p.img}
-                alt={p.name}
+                src={project.img}
+                alt={project.name}
                 className="w-full h-[250px] object-cover rounded-md "
               />
 
               <div className="w-full h-[50px] bg-white dark:bg-[#04133e] rounded-md">
                 <h4 className="text-2xl text-black dark:text-white font-semibold py-2 text-center ">
-                  {p.title}
+                  {project.title}
                 </h4>
               </div>
-              <div className="w-full h-full bg-blue-800 bg-opacity-60 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md"></div>
+              <div
+                className="w-full h-full bg-blue-800 bg-opacity-60 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md 
+              "
+              >
+                <div className="w-full h-full flex items-center justify-center">
+                  <button
+                    onClick={() => showModalHandler(project.id)}
+                    className="text-white bg-[#04133e] hover:bg-blue-800 py-2 px-4 rounded-[8px] ease-in duration-200"
+                  >
+                    See Details
+                  </button>
+                </div>
+              </div>
             </div>
           ))}
         </div>
       </div>
+      {showModal && <Modal setShowModal={setShowModal} activeID={activeID} />}
     </section>
   );
 }
