@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { projects } from "../data";
 import Modal from "./Modal";
+import { PiArrowSquareOutBold } from "react-icons/pi";
 
 function Projects() {
   const [showModal, setShowModal] = useState(false);
@@ -30,7 +31,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               key={index}
-              className="group w-[350px] h-[300px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
+              className="group w-[350px] h-[250px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
             >
               <img
                 src={project.img}
@@ -38,19 +39,18 @@ function Projects() {
                 className="w-full h-[250px] object-cover rounded-md "
               />
 
-              <div className="w-full h-[50px] bg-white dark:bg-[#04133e] rounded-md">
-                <h4 className="text-2xl text-black dark:text-white font-semibold py-2 text-center ">
-                  {project.title}
-                </h4>
-              </div>
               <div
                 onClick={() => showModalHandler(project.id)}
-                className="w-full h-full bg-blue-800 bg-opacity-60 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md 
+                className="w-full h-full bg-blue-800 bg-opacity-70 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md 
               "
               >
-                <div className="w-full h-full flex items-center justify-center">
-                  <button className="text-white bg-[#04133e] hover:bg-blue-800 py-2 px-4 rounded-[5px] ease-in duration-200">
-                    Click to see details
+                <div className="w-full h-full flex flex-col items-center justify-center">
+                  <div className="text-2xl text-white font-[700] my-5">
+                    <h2>{project.title}</h2>
+                  </div>
+
+                  <button className="text-white bg-[#04133e] hover:bg-blue-800 py-2 px-2 rounded-[20px] ease-in duration-200">
+                    <PiArrowSquareOutBold size={20} color={"white"} />
                   </button>
                 </div>
               </div>

@@ -8,10 +8,14 @@ const Modal = ({ activeID, setShowModal }) => {
 
   return (
     <div className="w-full h-full fixed top-0 left-0 z-10 bg-[#04133e] bg-opacity-70">
-      <div className="w-[500px] h-[500px] absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
+      <div className="w-1/3 h-[500px] absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
         <div>
           <figure>
-            <img className="rounded-[8px]" src={project.img} alt="" />
+            <img
+              className="rounded-[8px] max-h-full max-w-full object-contain"
+              src={project.img}
+              alt=""
+            />
           </figure>
         </div>
         <div>
@@ -32,16 +36,18 @@ const Modal = ({ activeID, setShowModal }) => {
               </span>
             ))}
           </div>
-          <a href={project.url}>
-            <button className="py-1 px-1 my-5 mr-7 ml-4 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6]">
-              <BsGlobe size={24} color={"white"} />
-            </button>
-          </a>
-          <a href={project.git}>
-            <button className="py-1 px-1 my-5 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6]">
-              <BsGithub size={24} color={"white"} />
-            </button>
-          </a>
+          <div className="flex items-center justify-center">
+            <a href={project.url}>
+              <button className="py-1 px-1 my-5 mr-7 ml-4 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
+                <BsGlobe size={24} color={"white"} />
+              </button>
+            </a>
+            <a href={project.git}>
+              <button className="py-1 px-1 my-5 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
+                <BsGithub size={24} color={"white"} />
+              </button>
+            </a>
+          </div>
         </div>
         <button
           onClick={() => setShowModal(false)}
