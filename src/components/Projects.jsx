@@ -44,15 +44,13 @@ function Projects() {
                 </h4>
               </div>
               <div
+                onClick={() => showModalHandler(project.id)}
                 className="w-full h-full bg-blue-800 bg-opacity-60 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md 
               "
               >
                 <div className="w-full h-full flex items-center justify-center">
-                  <button
-                    onClick={() => showModalHandler(project.id)}
-                    className="text-white bg-[#04133e] hover:bg-blue-800 py-2 px-4 rounded-[8px] ease-in duration-200"
-                  >
-                    See Details
+                  <button className="text-white bg-[#04133e] hover:bg-blue-800 py-2 px-4 rounded-[5px] ease-in duration-200">
+                    Click to see details
                   </button>
                 </div>
               </div>
