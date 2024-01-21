@@ -1,5 +1,5 @@
 import React from "react";
-import { Mongodb, Nodejs, Profile, Reactjs, Redux } from "../assets";
+import { Mongodb, NodeJS, Profile, ReactJS, Redux } from "../assets";
 
 const Header = () => {
   return (
@@ -69,7 +69,7 @@ const Header = () => {
               data-aos-easing="ease-in-out"
             >
               <img
-                src={Reactjs}
+                src={ReactJS}
                 alt=""
                 className="absolute top-7 md:top-20 left-3 2xl:left-2 w-12 h-12 md:w-16 md:h-16"
               />
@@ -84,7 +84,7 @@ const Header = () => {
                 className="absolute top-5 md:top-14 right-3 md:-right-3 2xl:right-2 w-12 h-12 md:w-16 md:h-16"
               />
               <img
-                src={Nodejs}
+                src={NodeJS}
                 alt=""
                 className="absolute bottom-7 md:bottom-10 right-3 2xl:right-12 w-12 h-12 md:w-16 md:h-16"
               />

@@ -1,18 +1,49 @@
-export { default as Mongodb } from "./mongodb.svg";
-export { default as Reactjs } from "./reactjs.svg";
-export { default as Nodejs } from "./nodejs.svg";
+export { default as Mongodb } from "./mongodb.png";
+export { default as ReactJS } from "./reactjs.svg";
+export { default as NodeJS } from "./nodejs.svg";
+
+export { default as Major } from "./major.png";
 
 export { default as Redux } from "./redux.svg";
 export { default as Express } from "./express.svg";
 export { default as Nextjs } from "./nextjs.svg";
 export { default as Nextjs2 } from "./nextjs2.svg";
-
-export { default as Major } from "./major.png";
-
-export { default as CSS3 } from "./css3.svg";
-export { default as HTML5 } from "./html.svg";
-export { default as Javascript } from "./javascript.svg";
-export { default as Python } from "./python.svg";
+export { default as JavaScript } from "./javascript.svg";
+export { default as CSS } from "./css3.svg";
+export { default as HTML } from "./html.svg";
+export { default as Bootstrap } from "./bootstrap.png";
+export { default as Chai } from "./chai.png";
+export { default as ChartJS } from "./chartjs.png";
+export { default as CSSModules } from "./css-modules.png";
+export { default as Cypress } from "./cypress.png";
+export { default as Datefns } from "./date-fns.png";
+export { default as Figma } from "./figma.png";
+export { default as Git } from "./git.png";
+export { default as Jest } from "./jest.svg";
+export { default as jQuery } from "./jquery.svg";
+// export { default as Krita } from "./krita.svg";
+export { default as Leaflet } from "./leaflet.png";
+export { default as Mocha } from "./mocha.png";
+export { default as Photoshop } from "./photoshop.svg";
+export { default as PostgreSQL } from "./postgresql.png";
+export { default as Rails } from "./rails.png";
+export { default as ReactHookForm } from "./react-hook-form.png";
+export { default as ReactHotToast } from "./react-hot-toast.jpg";
+export { default as ReactIcon } from "./react-icons.svg";
+export { default as ReactQuery } from "./react-query.png";
+export { default as ReactRouter } from "./react-router.png";
+export { default as Recharts } from "./recharts.png";
+export { default as RSpec } from "./rspec.png";
+export { default as Ruby } from "./ruby.png";
+export { default as SASS } from "./sass.svg";
+export { default as StyledComponents } from "./sc.png";
+export { default as SQL } from "./sql.png";
+export { default as Sublime } from "./sublime.png";
+export { default as Supabase } from "./supabase.svg";
+export { default as Tailwind } from "./tailwind.svg";
+export { default as Vite } from "./vite.svg";
+export { default as VS } from "./vs.png";
+export { default as Linux } from "./linux.svg";
 
 export { default as admin } from "./work/admin.png";
 export { default as food } from "./work/food.png";

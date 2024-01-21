@@ -18,7 +18,7 @@ function Skills() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex gap-4 shadow-lg py-2 px-6 bg-[#04133e] rounded-full items-center hover:animate-bounce ease-in-out duration-3 00"
+              className="flex gap-4 shadow-2xl py-2 px-6 bg-white rounded-full items-center hover:animate-bounce ease-in-out duration-3 00"
               data-aos="zoom-in-down"
               data-aos-offset="200"
               data-aos-delay="50"
@@ -26,23 +26,23 @@ function Skills() {
               data-aos-easing="ease-in-out"
             >
               <div className="w-10 h-10">
-                <img src={skill.icon} className="w-full h-full rounded-full" />
+                <img src={skill.icon} className="w-full h-full" />
               </div>
               <div className="flex flex-col gap-1">
                 <div className="flex items-center justify-between">
-                  <p className="text-md font-semibold text-white ">
+                  <p className="text-md font-semibold text-black ">
                     {skill.name}
                   </p>
-                  <p className="text-md font-semibold text-white">
+                  {/* <p className="text-md font-semibold text-white">
                     {skill.value + "%"}
-                  </p>
+                  </p> */}
                 </div>
-                <div className="w-[200px] h-[10px] bg-slate-800 rounded-lg mb-1">
+                {/* <div className="w-[200px] h-[10px] bg-slate-800 rounded-lg mb-1">
                   <div
                     className="bg-neutral-300 h-full"
                     style={{ width: skill.value + "%" }}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
