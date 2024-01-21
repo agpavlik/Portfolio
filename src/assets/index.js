@@ -44,6 +44,7 @@ export { default as Tailwind } from "./tailwind.svg";
 export { default as Vite } from "./vite.svg";
 export { default as VS } from "./vs.png";
 export { default as Linux } from "./linux.svg";
+export { default as Fusion } from "./fusion.jpg";
 
 export { default as admin } from "./work/admin.png";
 export { default as food } from "./work/food.png";
