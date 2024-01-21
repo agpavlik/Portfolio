@@ -16,6 +16,7 @@ import {
   port2,
   port3,
   social,
+  demo9,
 } from "./assets";
 
 export const projectStats = [
@@ -113,6 +114,7 @@ export const projects = [
     url: "",
     git: "",
     img: admin,
+    video: demo9,
   },
   {
     id: 2,
@@ -123,6 +125,7 @@ export const projects = [
     url: "",
     git: "",
     img: port1,
+    vide0: 2,
   },
   {
     id: 3,
@@ -133,6 +136,7 @@ export const projects = [
     url: "",
     git: "",
     img: port2,
+    video: 3,
   },
   {
     id: 4,
@@ -143,6 +147,7 @@ export const projects = [
     url: "",
     git: "",
     img: port3,
+    video: 4,
   },
   {
     id: 5,
@@ -153,6 +158,7 @@ export const projects = [
     url: "",
     git: "",
     img: food,
+    video: 5,
   },
   {
     id: 6,
@@ -163,6 +169,7 @@ export const projects = [
     url: "",
     git: "",
     img: social,
+    video: 6,
   },
   {
     id: 7,
@@ -173,6 +180,7 @@ export const projects = [
     url: "",
     git: "",
     img: food1,
+    video: 7,
   },
 ];
 

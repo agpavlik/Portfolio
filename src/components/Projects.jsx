@@ -31,7 +31,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               key={index}
-              className="group w-[350px] h-[250px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
+              className="group w-[350px] h-[250px] cursor-pointer shadow-2xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
             >
               <img
                 src={project.img}

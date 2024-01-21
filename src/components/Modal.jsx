@@ -12,8 +12,8 @@ const Modal = ({ activeID, setShowModal }) => {
         <div>
           <figure>
             <img
-              className="rounded-[8px] max-h-full max-w-full object-contain"
-              src={project.img}
+              className="rounded-[8px] max-h-full max-w-full object-contain border border-gray-700"
+              src={project.video}
               alt=""
             />
           </figure>
@@ -38,7 +38,7 @@ const Modal = ({ activeID, setShowModal }) => {
           </div>
           <div className="flex items-center justify-center">
             <a href={project.url}>
-              <button className="py-1 px-1 my-5 mr-7 ml-4 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
+              <button className="py-1 px-1 my-5 mr-16 ml-4 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
                 <BsGlobe size={24} color={"white"} />
               </button>
             </a>
