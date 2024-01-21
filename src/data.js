@@ -4,7 +4,7 @@ import {
   HTML,
   JavaScript,
   Mongodb,
-  Nextjs,
+  Krita,
   Fusion,
   Nextjs2,
   NodeJS,
@@ -346,6 +346,12 @@ export const skills = [
     icon: Sublime,
     category: "tools",
     url: "https://www.sublimetext.com/",
+  },
+  {
+    name: "Krita",
+    icon: Krita,
+    category: "design",
+    url: "https://krita.org/en/",
   },
 ];
 

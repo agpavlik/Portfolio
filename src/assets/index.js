@@ -31,7 +31,7 @@ export { default as ReactHookForm } from "./react-hook-form.png";
 export { default as ReactHotToast } from "./react-hot-toast.jpg";
 export { default as ReactIcon } from "./react-icons.svg";
 export { default as ReactQuery } from "./react-query.png";
-export { default as ReactRouter } from "./react-router.png";
+export { default as ReactRouter } from "./react-router.jpg";
 export { default as Recharts } from "./recharts.png";
 export { default as RSpec } from "./rspec.png";
 export { default as Ruby } from "./ruby.png";
@@ -45,6 +45,7 @@ export { default as Vite } from "./vite.svg";
 export { default as VS } from "./vs.png";
 export { default as Linux } from "./linux.svg";
 export { default as Fusion } from "./fusion.jpg";
+export { default as Krita } from "./krita.png";
 
 export { default as admin } from "./work/admin.png";
 export { default as food } from "./work/food.png";

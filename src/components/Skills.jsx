@@ -49,14 +49,14 @@ function Skills() {
       id="skills"
       className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
     >
-      <div className="w-full flex flex-col py-20">
+      <div className="w-full flex flex-col py-20 px-8">
         <div className="flex items-center justify-between flex-wrap mb-10">
           <div>
             <h4 className="text-3xl font-bold text-black dark:text-white mb-10 text-center">
               Technical Skills
             </h4>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
             <button
               onClick={() => setSelectTab("all")}
               className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
@@ -65,7 +65,7 @@ function Skills() {
             </button>
             <button
               onClick={() => setSelectTab("language")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className=" text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
             >
               Programming Languages
             </button>
