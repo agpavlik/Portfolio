@@ -1,9 +1,6 @@
 export { default as Mongodb } from "./mongodb.png";
 export { default as ReactJS } from "./reactjs.svg";
 export { default as NodeJS } from "./nodejs.svg";
-
-export { default as Major } from "./major.png";
-
 export { default as Redux } from "./redux.svg";
 export { default as Express } from "./express.svg";
 export { default as Nextjs } from "./nextjs.svg";
@@ -21,7 +18,6 @@ export { default as Figma } from "./figma.png";
 export { default as Git } from "./git.png";
 export { default as Jest } from "./jest.svg";
 export { default as jQuery } from "./jquery.svg";
-// export { default as Krita } from "./krita.svg";
 export { default as Leaflet } from "./leaflet.png";
 export { default as Mocha } from "./mocha.png";
 export { default as Photoshop } from "./photoshop.svg";

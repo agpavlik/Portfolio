@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import WorkStat from "./components/WorkStat";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -39,7 +38,6 @@ function App() {
         <div className="dark:bg-gradient-to-tr from-[#0235a3] via-[#030a1c] to-[#05174e]">
           <Header />
         </div>
-        <WorkStat />
         <About />
         <Skills />
         <Projects />

@@ -59,43 +59,43 @@ function Skills() {
           <div className="flex gap-3 flex-wrap">
             <button
               onClick={() => setSelectTab("all")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               All
             </button>
             <button
               onClick={() => setSelectTab("language")}
-              className=" text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className=" text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               Programming Languages
             </button>
             <button
               onClick={() => setSelectTab("framework")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               Frameworks & Libraries
             </button>
             <button
               onClick={() => setSelectTab("design")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               Design
             </button>
             <button
               onClick={() => setSelectTab("database")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               Databases
             </button>
             <button
               onClick={() => setSelectTab("testing")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               Testing
             </button>
             <button
               onClick={() => setSelectTab("tools")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-2 px-4 rounded-[8px]"
+              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               Tools
             </button>
