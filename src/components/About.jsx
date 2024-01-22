@@ -30,7 +30,7 @@ function About() {
           </p>
         </div>
         <div
-          className="mt-5 2xl:mt-10 flex flex-wrap gap-10"
+          className="mt-5 2xl:mt-10 flex items-center justify-center flex-wrap gap-10"
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-delay="50"

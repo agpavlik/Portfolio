@@ -1,5 +1,8 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Mongodb, NodeJS, Profile, ReactJS, Redux } from "../assets";
+import { OrbitControls, Stage } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import Tablet from "./Tablet";
 
 const Header = () => {
   return (
@@ -49,46 +52,27 @@ const Header = () => {
 
         {/* ===== Right part start ===== */}
         <div className="w-full flex-1 flex justify-center">
-          <div className="w-[300px] h-[290px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border border-gray-600 dark:border-gray-200 relative md:mt-20 lg:mt-0 flex items-center justify-center">
-            <img
-              src={Profile}
-              alt=""
-              className="w-auto h-full absolute -top-5 md:-top-10"
-              data-aos="fade-down"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            />
-            <div
+          <div className="w-[200px] h-[300px] md:w-[300px] md:h-[400px] 2xl:w-[400px] 2xl:h-[500px] relative md:mt-20 lg:mt-0 flex items-center justify-center">
+            <Canvas>
+              <Suspense fallback={null}>
+                <Stage environment="city" intensity={0.8}>
+                  <Tablet />
+                </Stage>
+                <OrbitControls
+                  enableZoom={false}
+                  autoRotate
+                  autoRotateSpeed={5}
+                />
+              </Suspense>
+            </Canvas>
+            {/* <div
               className="relative w-full h-full rounded-full"
               data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-            >
-              <img
-                src={ReactJS}
-                alt=""
-                className="absolute top-7 md:top-20 left-3 2xl:left-2 w-12 h-12 md:w-16 md:h-16"
-              />
-              <img
-                src={Redux}
-                alt=""
-                className="absolute bottom-7 md:bottom-10 left-3 2xl:left-12 w-12 h-12 md:w-16 md:h-16"
-              />
-              <img
-                src={Mongodb}
-                alt=""
-                className="absolute top-5 md:top-14 right-3 md:-right-3 2xl:right-2 w-12 h-12 md:w-16 md:h-16"
-              />
-              <img
-                src={NodeJS}
-                alt=""
-                className="absolute bottom-7 md:bottom-10 right-3 2xl:right-12 w-12 h-12 md:w-16 md:h-16"
-              />
-            </div>
+            ></div> */}
           </div>
         </div>
         {/* ===== Right part end ===== */}

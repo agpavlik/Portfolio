@@ -26,7 +26,7 @@ function App() {
     <div
       className={`w-full h-full min-h-[100vh] bg-white ${darkMode && "dark"}`}
     >
-      <nav className="z-10 fixed w-full top-0 left-0 bg-white dark:bg-[#061130]">
+      <nav className="px-4 z-10 fixed w-full top-0 left-0 bg-white dark:bg-[#061130]">
         <Navbar
           darkMode={darkMode}
           isOpen={isOpen}

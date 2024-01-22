@@ -7,12 +7,12 @@ import { GoHome } from "react-icons/go";
 
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
-    <div className="px-0 2xl:px-40">
+    <div className="px-0 2xl:px-40 border-b-[1px] border-gray-600">
       <div className="w-full items-center justify-between py-4 px-10">
         <div className="flex items-center justify-between w-full">
           {/*===== Home icon start =====*/}
           <a
-            href="/"
+            href="#home"
             className="text-2xl font-bold text-blue-500 cursor-pointer"
           >
             <GoHome
@@ -26,17 +26,29 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             {/* <li className="cursor-pointer hover:text-blue-500 ">
               <a href="#home">Home</a>
             </li> */}
-            <li className="cursor-pointer hover:text-blue-500 ">
+            <li
+              className="cursor-pointer hover:text-blue-500"
+              activeClass="active"
+            >
               <a href="#about">About</a>
             </li>
 
-            <li className="cursor-pointer hover:text-blue-500 ">
+            <li
+              className="cursor-pointer hover:text-blue-500"
+              activeClass="active"
+            >
               <a href="#skills">Skills</a>
             </li>
-            <li className="cursor-pointer hover:text-blue-500 ">
+            <li
+              className="cursor-pointer hover:text-blue-500"
+              activeClass="active"
+            >
               <a href="#projects">Projects</a>
             </li>
-            <li className="cursor-pointer hover:text-blue-500 ">
+            <li
+              className="cursor-pointer hover:text-blue-500"
+              activeClass="active"
+            >
               <a href="#contact">Contact</a>
             </li>
           </ul>
