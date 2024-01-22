@@ -1,9 +1,7 @@
 import React from "react";
 import { Profile } from "../assets";
-import { FaUserAlt } from "react-icons/fa";
-import { MdOutlineAlternateEmail } from "react-icons/md";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { RxLinkedinLogo } from "react-icons/rx";
+import { FaGithubSquare } from "react-icons/fa";
 
 function About() {
   return (
@@ -39,20 +37,20 @@ function About() {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <button className="bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5 hover:bg-orange-900 easi-in duration-300">
+          <button className="hover:shadow-[0_0_10px_5px_orange] h-[40px] bg-orange-800 text-lg text-white font-semibold rounded-md py-2 px-5 hover:bg-orange-600 easi-in duration-300">
             RESUME
           </button>
           <a
             href="https://www.linkedin.com/in/alex-pavlyk/"
-            className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
+            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] cursor-pointer hover:bg-blue-800"
           >
-            <FaLinkedin size={20} /> LinkedIn
+            <RxLinkedinLogo size={40} color={"white"} />
           </a>
           <a
             href="https://github.com/agpavlik"
-            className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
+            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
           >
-            <FaGithub size={20} /> GitHub
+            <FaGithubSquare size={40} />
           </a>
         </div>
       </div>
