@@ -18,28 +18,30 @@ function Skills() {
       );
       setTechSkills(filteredData);
     }
-    if (selectTab === "framework") {
+    if (selectTab === "frontend") {
       const filteredData = skills.filter(
-        (item) => item.category === "framework"
+        (item) => item.category === "frontend"
       );
+      setTechSkills(filteredData);
+    }
+    if (selectTab === "backend") {
+      const filteredData = skills.filter((item) => item.category === "backend");
+      setTechSkills(filteredData);
+    }
+    if (selectTab === "library") {
+      const filteredData = skills.filter((item) => item.category === "library");
       setTechSkills(filteredData);
     }
     if (selectTab === "design") {
       const filteredData = skills.filter((item) => item.category === "design");
       setTechSkills(filteredData);
     }
-    if (selectTab === "database") {
-      const filteredData = skills.filter(
-        (item) => item.category === "database"
-      );
-      setTechSkills(filteredData);
-    }
     if (selectTab === "testing") {
       const filteredData = skills.filter((item) => item.category === "testing");
       setTechSkills(filteredData);
     }
-    if (selectTab === "tools") {
-      const filteredData = skills.filter((item) => item.category === "tools");
+    if (selectTab === "tool") {
+      const filteredData = skills.filter((item) => item.category === "tool");
       setTechSkills(filteredData);
     }
   }, [selectTab]);
@@ -67,13 +69,19 @@ function Skills() {
               onClick={() => setSelectTab("language")}
               className=" text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
-              Programming Languages
+              Languages
             </button>
             <button
-              onClick={() => setSelectTab("framework")}
+              onClick={() => setSelectTab("frontend")}
               className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
-              Frameworks & Libraries
+              Frontend
+            </button>
+            <button
+              onClick={() => setSelectTab("backend")}
+              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+            >
+              Backend
             </button>
             <button
               onClick={() => setSelectTab("design")}
@@ -82,10 +90,10 @@ function Skills() {
               Design
             </button>
             <button
-              onClick={() => setSelectTab("database")}
+              onClick={() => setSelectTab("library")}
               className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
-              Databases
+              Useful libraries
             </button>
             <button
               onClick={() => setSelectTab("testing")}
@@ -94,7 +102,7 @@ function Skills() {
               Testing
             </button>
             <button
-              onClick={() => setSelectTab("tools")}
+              onClick={() => setSelectTab("tool")}
               className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
             >
               Tools

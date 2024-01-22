@@ -5,6 +5,7 @@ import {
   JavaScript,
   Mongodb,
   Krita,
+  Three,
   Fusion,
   Nextjs2,
   NodeJS,
@@ -25,7 +26,6 @@ import {
   Linux,
   Photoshop,
   PostgreSQL,
-  Rails,
   ReactHookForm,
   ReactHotToast,
   ReactIcon,
@@ -98,7 +98,7 @@ export const skills = [
   {
     name: "React",
     icon: ReactJS,
-    category: "framework",
+    category: "frontend",
     url: "https://reactjs.org/",
   },
   {
@@ -120,52 +120,65 @@ export const skills = [
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
-    name: "Postgresql",
-    icon: PostgreSQL,
-    category: "database",
-    url: "https://www.postgresql.org/",
-  },
-  {
-    name: "React Router",
-    icon: ReactRouter,
-    category: "framework",
-    url: "https://reactrouter.com/en/main",
-  },
-  {
-    name: "Redux",
-    icon: Redux,
-    category: "framework",
-    url: "https://redux.js.org/",
-  },
-  {
-    name: "NextJS",
-    icon: Nextjs2,
-    category: "framework",
-    url: "https://nextjs.org/",
-  },
-  {
-    name: "MongoDB",
-    icon: Mongodb,
-    category: "database",
-    url: "https://www.mongodb.com/",
-  },
-  {
     name: "NodeJS",
     icon: NodeJS,
-    category: "framework",
+    category: "backend",
     url: "https://nodejs.org/en",
   },
   {
     name: "Express",
     icon: Express,
-    category: "framework",
+    category: "backend",
     url: "https://expressjs.com/",
+  },
+  {
+    name: "Postgresql",
+    icon: PostgreSQL,
+    category: "backend",
+    url: "https://www.postgresql.org/",
+  },
+  {
+    name: "React Router",
+    icon: ReactRouter,
+    category: "frontend",
+    url: "https://reactrouter.com/en/main",
+  },
+  {
+    name: "Redux",
+    icon: Redux,
+    category: "frontend",
+    url: "https://redux.js.org/",
+  },
+  {
+    name: "React Query",
+    icon: ReactQuery,
+    category: "frontend",
+    url: "https://tanstack.com/query/latest",
+  },
+  {
+    name: "MongoDB",
+    icon: Mongodb,
+    category: "backend",
+    url: "https://www.mongodb.com/",
+  },
+
+  {
+    name: "jQuery",
+    icon: jQuery,
+    category: "frontend",
+    url: "https://jquery.com/",
   },
   {
     name: "Bootstrap",
     icon: Bootstrap,
-    category: "framework",
+    category: "frontend",
     url: "https://getbootstrap.com/",
+  },
+  {
+    name: "Tailwind",
+    icon: Tailwind,
+    category: "frontend",
+    url: "https://tailwindui.com/",
   },
   {
     name: "Chai",
@@ -173,16 +186,11 @@ export const skills = [
     category: "testing",
     url: "https://www.chaijs.com/",
   },
-  {
-    name: "CSS Modules",
-    icon: CSSModules,
-    category: "framework",
-    url: "https://github.com/css-modules/css-modules",
-  },
+
   {
     name: "ChartJS",
     icon: ChartJS,
-    category: "framework",
+    category: "library",
     url: "https://www.chartjs.org/docs/latest/",
   },
   {
@@ -194,7 +202,7 @@ export const skills = [
   {
     name: "date-fns",
     icon: Datefns,
-    category: "framework",
+    category: "library",
     url: "https://date-fns.org/",
   },
   {
@@ -206,7 +214,7 @@ export const skills = [
   {
     name: "Git",
     icon: Git,
-    category: "tools",
+    category: "tool",
     url: "",
   },
   {
@@ -215,16 +223,11 @@ export const skills = [
     category: "testing",
     url: "",
   },
-  {
-    name: "jQuery",
-    icon: jQuery,
-    category: "framework",
-    url: "https://jquery.com/",
-  },
+
   {
     name: "React Leaflet",
     icon: Leaflet,
-    category: "framework",
+    category: "library",
     url: "https://react-leaflet.js.org/",
   },
   {
@@ -240,39 +243,28 @@ export const skills = [
     url: "",
   },
   {
-    name: "Rails",
-    icon: Rails,
-    category: "framework",
-    url: "https://rubyonrails.org/",
-  },
-  {
     name: "React Hook Form",
     icon: ReactHookForm,
-    category: "framework",
+    category: "library",
     url: "https://react-hook-form.com/",
   },
   {
     name: "React Hot Toast",
     icon: ReactHotToast,
-    category: "framework",
+    category: "library",
     url: "https://react-hot-toast.com/",
   },
   {
     name: "React Icon",
     icon: ReactIcon,
-    category: "framework",
+    category: "library",
     url: "https://react-icons.github.io/react-icons",
   },
-  {
-    name: "React Query",
-    icon: ReactQuery,
-    category: "framework",
-    url: "https://tanstack.com/query/latest",
-  },
+
   {
     name: "Recharts",
     icon: Recharts,
-    category: "framework",
+    category: "library",
     url: "https://recharts.org/en-US/",
   },
   {
@@ -290,31 +282,31 @@ export const skills = [
   {
     name: "SASS",
     icon: SASS,
-    category: "framework",
+    category: "frontend",
     url: "https://sass-lang.com/",
   },
   {
     name: "Styled Components",
     icon: StyledComponents,
-    category: "framework",
+    category: "frontend",
     url: "https://styled-components.com/",
   },
   {
-    name: "Tailwind",
-    icon: Tailwind,
-    category: "framework",
-    url: "https://tailwindui.com/",
+    name: "CSS Modules",
+    icon: CSSModules,
+    category: "frontend",
+    url: "https://github.com/css-modules/css-modules",
   },
   {
     name: "Vite",
     icon: Vite,
-    category: "tools",
+    category: "tool",
     url: "https://vitejs.dev/",
   },
   {
     name: "Visual Studio",
     icon: VS,
-    category: "tools",
+    category: "tool",
     url: "https://code.visualstudio.com/",
   },
   {
@@ -326,32 +318,45 @@ export const skills = [
   {
     name: "Supabase",
     icon: Supabase,
-    category: "database",
+    category: "backend",
     url: "https://supabase.com/",
+  },
+  {
+    name: "Sublime",
+    icon: Sublime,
+    category: "tool",
+    url: "https://www.sublimetext.com/",
   },
   {
     name: "Linux",
     icon: Linux,
-    category: "tools",
+    category: "tool",
     url: "",
   },
   {
     name: "FusionCharts",
     icon: Fusion,
-    category: "framework",
+    category: "library",
     url: "https://www.fusioncharts.com/",
   },
-  {
-    name: "Sublime",
-    icon: Sublime,
-    category: "tools",
-    url: "https://www.sublimetext.com/",
-  },
+
   {
     name: "Krita",
     icon: Krita,
     category: "design",
     url: "https://krita.org/en/",
+  },
+  {
+    name: "Three.js",
+    icon: Three,
+    category: "library",
+    url: "https://threejs.org/",
+  },
+  {
+    name: "NextJS",
+    icon: Nextjs2,
+    category: "frontend",
+    url: "https://nextjs.org/",
   },
 ];
 

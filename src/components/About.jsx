@@ -37,9 +37,6 @@ function About() {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <button className="hover:shadow-[0_0_10px_5px_orange] h-[40px] bg-orange-800 text-lg text-white font-semibold rounded-md py-2 px-5 hover:bg-orange-600 easi-in duration-300">
-            RESUME
-          </button>
           <a
             href="https://www.linkedin.com/in/alex-pavlyk/"
             className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] cursor-pointer hover:bg-blue-800"
@@ -52,6 +49,9 @@ function About() {
           >
             <FaGithubSquare size={40} />
           </a>
+          <button className="hover:shadow-[0_0_10px_5px_orange] h-[40px] bg-orange-800 text-lg text-white font-semibold rounded-md py-2 px-5 hover:bg-orange-600 easi-in duration-300">
+            RESUME
+          </button>
         </div>
       </div>
     </section>

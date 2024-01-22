@@ -22,7 +22,6 @@ export { default as Leaflet } from "./leaflet.png";
 export { default as Mocha } from "./mocha.png";
 export { default as Photoshop } from "./photoshop.svg";
 export { default as PostgreSQL } from "./postgresql.png";
-export { default as Rails } from "./rails.png";
 export { default as ReactHookForm } from "./react-hook-form.png";
 export { default as ReactHotToast } from "./react-hot-toast.jpg";
 export { default as ReactIcon } from "./react-icons.svg";
@@ -42,6 +41,7 @@ export { default as VS } from "./vs.png";
 export { default as Linux } from "./linux.svg";
 export { default as Fusion } from "./fusion.jpg";
 export { default as Krita } from "./krita.png";
+export { default as Three } from "./three.png";
 
 export { default as admin } from "./work/admin.png";
 export { default as food } from "./work/food.png";
