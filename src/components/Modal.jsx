@@ -19,14 +19,32 @@ const Modal = ({ activeID, setShowModal }) => {
           </figure>
         </div>
         <div>
-          <h2 className="text-2xl text-black font-[700] my-5">
-            {project.title}
-          </h2>
-          <p className="text-[15px] leading-7 text-black">
-            {project.description}
-          </p>
+          <div className="flex flex-raw">
+            <div className="w-1/2">
+              <h2 className="text-2xl text-black font-[700] my-5">
+                {project.title}
+              </h2>
+            </div>
+            <div className="flex w-1/2 items-center justify-center">
+              <a href={project.url}>
+                <button className="py-1 px-1 my-5 mr-10 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
+                  <BsGlobe size={24} color={"white"} />
+                </button>
+              </a>
+              <a href={project.git}>
+                <button className="py-1 px-1 my-5 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
+                  <BsGithub size={24} color={"white"} />
+                </button>
+              </a>{" "}
+            </div>
+          </div>
+          <div>
+            <p className="text-[15px] leading-7 text-black">
+              {project.description}
+            </p>
+          </div>
+
           <div className="mt-5 flex items-center gap-3 flex-wrap">
-            <h4 className="text-black text-[18px] text-[700]">Technologies:</h4>
             {project.technologies.map((item, index) => (
               <span
                 key={index}
@@ -35,18 +53,6 @@ const Modal = ({ activeID, setShowModal }) => {
                 {item}
               </span>
             ))}
-          </div>
-          <div className="flex items-center justify-center">
-            <a href={project.url}>
-              <button className="py-1 px-1 my-5 mr-16 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
-                <BsGlobe size={24} color={"white"} />
-              </button>
-            </a>
-            <a href={project.git}>
-              <button className="py-1 px-1 my-5 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
-                <BsGithub size={24} color={"white"} />
-              </button>
-            </a>
           </div>
         </div>
         <button

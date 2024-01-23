@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Contact from "./components/Contact";
 AOS.init();
 
 function App() {
@@ -41,11 +42,9 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </div>
-      <div
-        id="contact"
-        className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c] "
-      >
+      <div className="w-full px-4 py-5 lg:py-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c] ">
         <Footer />
       </div>
     </div>

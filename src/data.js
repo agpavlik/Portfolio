@@ -43,7 +43,7 @@ import {
   VS,
   admin,
   food,
-  food1,
+  petsitter,
   port1,
   port2,
   port3,
@@ -429,14 +429,14 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Eat Well App",
-    cat: "Mobile App",
-    description: "lorem",
-    technologies: ["React", "CSS"],
+    title: "MythiCare",
+    description:
+      "A pet sitting app where user can find or become a sitter for the pets. User can create profiles for pets, including information such as their vaccination status and their typical daily consumption of feed. User can book and connect with pet sitters.",
+    technologies: ["React", "Bootstrap", "Node", "Express", "PostgreSQL"],
     url: "",
-    git: "",
-    img: food1,
-    video: 7,
+    git: "https://github.com/agpavlik/LHL-project-MythiCare",
+    img: petsitter,
+    video: petsitter,
   },
 ];
 

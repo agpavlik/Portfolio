@@ -26,29 +26,17 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             {/* <li className="cursor-pointer hover:text-blue-500 ">
               <a href="#home">Home</a>
             </li> */}
-            <li
-              className="cursor-pointer hover:text-blue-500"
-              activeClass="active"
-            >
+            <li className="cursor-pointer hover:text-blue-500">
               <a href="#about">About</a>
             </li>
 
-            <li
-              className="cursor-pointer hover:text-blue-500"
-              activeClass="active"
-            >
+            <li className="cursor-pointer hover:text-blue-500">
               <a href="#skills">Skills</a>
             </li>
-            <li
-              className="cursor-pointer hover:text-blue-500"
-              activeClass="active"
-            >
+            <li className="cursor-pointer hover:text-blue-500">
               <a href="#projects">Projects</a>
             </li>
-            <li
-              className="cursor-pointer hover:text-blue-500"
-              activeClass="active"
-            >
+            <li className="cursor-pointer hover:text-blue-500">
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -95,16 +83,32 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           id="mobile-menu"
         >
           <div className="flex flex-col gap-4 text-md text-gray-700 dark:text-neutral-200">
-            <a href="#about" onClick={toggleMenu} className="cursor-pointer">
+            <a
+              href="#about"
+              onClick={toggleMenu}
+              className="cursor-pointer  hover:text-blue-500"
+            >
               About
             </a>
-            <a href="#skills" onClick={toggleMenu} className="cursor-pointer">
+            <a
+              href="#skills"
+              onClick={toggleMenu}
+              className="cursor-pointer  hover:text-blue-500"
+            >
               Skills
             </a>
-            <a href="#projects" onClick={toggleMenu} className="cursor-pointer">
+            <a
+              href="#projects"
+              onClick={toggleMenu}
+              className="cursor-pointer hover:text-blue-500"
+            >
               Projects
             </a>
-            <a href="#contact" onClick={toggleMenu} className="cursor-pointer">
+            <a
+              href="#contact"
+              onClick={toggleMenu}
+              className="cursor-pointer hover:text-blue-500"
+            >
               Contact
             </a>
           </div>

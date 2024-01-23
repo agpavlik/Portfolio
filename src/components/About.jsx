@@ -7,7 +7,7 @@ function About() {
   return (
     <section
       id="about"
-      className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+      className="w-full px-0 lg:px-5 2xl:px-40 py-10 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
     >
       <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 lg:gap-20 lg:py-20 ">
         <div className="w-full md:h-[290px] lg:w-11/12 flex flex-col items-center bg-white border border-gray-500 rounded-md">
