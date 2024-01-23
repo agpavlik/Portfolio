@@ -29,6 +29,8 @@ function About() {
             achieve lasting impacts on user experience.
           </p>
         </div>
+
+        {/* ----- Set of buttons start----- */}
         <div
           className="mt-5 2xl:mt-10 flex items-center justify-center flex-wrap gap-10"
           data-aos="fade-up"
@@ -53,6 +55,7 @@ function About() {
             RESUME
           </button>
         </div>
+        {/* ----- Set of buttons end----- */}
       </div>
     </section>
   );

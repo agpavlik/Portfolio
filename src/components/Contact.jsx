@@ -21,6 +21,8 @@ function Contact() {
             visions.
           </p>
         </div>
+        
+        {/* ----- Set of buttons start----- */}
         <div
           className="lg:w-1/2 sm:w-full mt-5 2xl:mt-10 flex items-center justify-center flex-wrap gap-20"
           data-aos="fade-up"
@@ -54,6 +56,7 @@ function Contact() {
             <ImMail size={52} />
           </a>
         </div>
+        {/* ----- Set of buttons end----- */}
       </div>
     </section>
   );

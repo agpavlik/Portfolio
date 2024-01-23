@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { skills } from "../data";
-import { softskills } from "../data";
-import { BsCheck2All } from "react-icons/bs";
 
 function Skills() {
+  // Select skills by category
   const [techSkills, setTechSkills] = useState(skills);
   const [selectTab, setSelectTab] = useState("all");
 
@@ -52,6 +51,7 @@ function Skills() {
       className="w-full px-0 lg:px-5 2xl:px-40 py-10 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
     >
       <div className="w-full flex flex-col py-20 px-8">
+        {/* ----- Set of buttons for selection start -----*/}
         <div className="flex items-center justify-between flex-wrap mb-10">
           <div>
             <h4 className="text-3xl font-bold text-black dark:text-white mb-10 text-center">
@@ -109,7 +109,9 @@ function Skills() {
             </button>
           </div>
         </div>
+        {/* ----- Set of buttons for selection end -----*/}
 
+        {/* ----- Skills rendering startv----- */}
         <div className="w-full flex flex-wrap gap-10 items-center justify-center">
           {techSkills.map((skill, index) => (
             <div
@@ -136,6 +138,8 @@ function Skills() {
             </div>
           ))}
         </div>
+        {/* ----- Skills rendering end ----- */}
+
         {/* <div className="mt-[10rem] ">
           <h4 className="text-3xl font-bold text-black dark:text-white mb-14 text-center">
             Soft Skills

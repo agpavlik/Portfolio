@@ -4,6 +4,7 @@ import Modal from "./Modal";
 import { PiArrowSquareOutBold } from "react-icons/pi";
 
 function Projects() {
+  // Open/close Modal window
   const [showModal, setShowModal] = useState(false);
   const [activeID, setActiveID] = useState(null);
 

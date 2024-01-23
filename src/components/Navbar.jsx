@@ -27,17 +27,17 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <a href="#home">Home</a>
             </li> */}
             <li className="cursor-pointer hover:text-blue-500">
-              <a href="#about">About</a>
+              <a href="#about">ABOUT</a>
             </li>
 
             <li className="cursor-pointer hover:text-blue-500">
-              <a href="#skills">Skills</a>
+              <a href="#skills">SKILLS</a>
             </li>
             <li className="cursor-pointer hover:text-blue-500">
-              <a href="#projects">Projects</a>
+              <a href="#projects">PROJECTS</a>
             </li>
             <li className="cursor-pointer hover:text-blue-500">
-              <a href="#contact">Contact</a>
+              <a href="#contact">CONTACT</a>
             </li>
           </ul>
           {/*===== Menu end =====*/}
@@ -88,28 +88,28 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               onClick={toggleMenu}
               className="cursor-pointer  hover:text-blue-500"
             >
-              About
+              ABOUT
             </a>
             <a
               href="#skills"
               onClick={toggleMenu}
               className="cursor-pointer  hover:text-blue-500"
             >
-              Skills
+              SKILLS
             </a>
             <a
               href="#projects"
               onClick={toggleMenu}
               className="cursor-pointer hover:text-blue-500"
             >
-              Projects
+              PROJECTS
             </a>
             <a
               href="#contact"
               onClick={toggleMenu}
               className="cursor-pointer hover:text-blue-500"
             >
-              Contact
+              CONTACT
             </a>
           </div>
         </div>

@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Tablet({ ...props }) {
+  // Implement 3d model
   const group = useRef();
   const { nodes, materials } = useGLTF("/tablet.glb");
   return (

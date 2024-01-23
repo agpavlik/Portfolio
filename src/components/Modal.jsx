@@ -13,7 +13,8 @@ const Modal = ({ activeID, setShowModal }) => {
           <figure>
             <img
               className="rounded-[8px] max-h-full max-w-full object-contain border border-gray-700"
-              src={project.video}
+              src={project.img}
+              // Could be changed to 'project.video' when a problem with a modal window flashing would be solved
               alt=""
             />
           </figure>
@@ -35,7 +36,7 @@ const Modal = ({ activeID, setShowModal }) => {
                 <button className="py-1 px-1 my-5 rounded-[20px] font-[500] bg-[#04133e] hover:bg-[#3b82f6] animate-pulse">
                   <BsGithub size={24} color={"white"} />
                 </button>
-              </a>{" "}
+              </a>
             </div>
           </div>
           <div>
