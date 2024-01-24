@@ -42,7 +42,7 @@ function Projects() {
 
               <div
                 onClick={() => showModalHandler(project.id)}
-                className="w-full h-full bg-blue-800 bg-opacity-70 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md 
+                className="w-full h-full bg-gradient-to-l from-blue-800 to-blue-800 opacity-50 hover:bg-[length:100%_100%] bg-[length:0_100%] bg-no-repeat ease-in duration-300 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md 
               "
               >
                 <div className="w-full h-full flex flex-col items-center justify-center">

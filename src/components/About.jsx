@@ -43,7 +43,7 @@ function About() {
             href="https://www.linkedin.com/in/alex-pavlyk/"
             className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] cursor-pointer hover:bg-blue-800"
           >
-            <RxLinkedinLogo size={40} color={"white"} />
+            <RxLinkedinLogo size={40} color={"white"} hover={50} />
           </a>
           <a
             href="https://github.com/agpavlik"

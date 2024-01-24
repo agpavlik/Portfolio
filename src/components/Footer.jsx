@@ -6,19 +6,19 @@ function Footer() {
       <div className="w-full flex flex-col py-8 px-8 gap-5 justify-center ">
         <div className="flex flex-row text-sm gap-5 text-white justify-center ">
           <a href="#home" className="cursor-pointer  hover:text-blue-500">
-            HOME
+            Home
           </a>
           <a href="#about" className="cursor-pointer  hover:text-blue-500">
-            ABOUT
+            About
           </a>
           <a href="#skills" className="cursor-pointer  hover:text-blue-500">
-            SKILLS
+            Skills
           </a>
           <a href="#projects" className="cursor-pointer  hover:text-blue-500">
-            PROJECTS
+            Projects
           </a>
           <a href="#contact" className="cursor-pointer  hover:text-blue-500">
-            CONTACT
+            Contact
           </a>
         </div>
 
