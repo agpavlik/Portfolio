@@ -15,10 +15,10 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           {/*===== Home icon start =====*/}
           <a
             href="#home"
-            className="text-2xl font-bold text-[#1976D2] cursor-pointer"
+            className="text-2xl font-bold text-blue-600 cursor-pointer"
           >
             <GoHome
-              className={`${darkMode ? "text-white" : "text-[#1976D2]"}`}
+              className={`${darkMode ? "text-white" : "text-blue-600"}`}
             />
           </a>
           {/*===== Home icon end =====*/}
@@ -28,7 +28,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             {navdata.map((nav) => (
               <li
                 key={nav.id}
-                className="cursor-pointer hover:text-[#1976D2] tracking-wider font-medium duration-300"
+                className="cursor-pointer hover:text-blue-600 tracking-wider font-medium duration-300"
               >
                 {/* <a href={nav.link}>{nav.title}</a> */}
 
@@ -70,7 +70,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
                 size={26}
                 className={`${
                   isOpen ? "hidden" : "block"
-                } text-gray-700 dark:text-white`}
+                } text-slate-800 dark:text-gray-200`}
               />
               <AiOutlineClose
                 size={24}
@@ -88,11 +88,11 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           className={`${isOpen ? "block pt-4" : "hidden"} md:hidden`}
           id="mobile-menu"
         >
-          <ul className="flex flex-col gap-4 text-md text-gray-700 dark:text-neutral-200 list-none">
+          <ul className="flex flex-col gap-4 text-md text-slate-800 dark:text-gray-200 list-none">
             {navdata.map((nav) => (
               <li
                 key={nav.id}
-                className="cursor-pointer hover:text-[#1976D2] tracking-wider font-medium duration-300"
+                className="cursor-pointer hover:text-blue-600 tracking-wider font-medium duration-300"
               >
                 <Link
                   activeClass="active"

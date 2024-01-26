@@ -18,10 +18,10 @@ function About() {
           />
         </div>
         <div className="w-full flex flex-col">
-          <p className="text-3xl font-bold text-black dark:text-white pb-4">
+          <p className="text-3xl font-bold text-black dark:text-gray-100 pb-4">
             About Me
           </p>
-          <p className="text-lg text-black dark:text-gray-400 leading-10">
+          <p className="text-lg text-black dark:text-gray-200 leading-10">
             Full-Stack Web Developer with ability to learn and collaborate in
             rapidly changing environments and compositions. Worked through hours
             of bootcamp structure, learning JavaScript, NodeJs, ReactJs, NextJs
@@ -44,17 +44,18 @@ function About() {
         >
           <a
             href="https://www.linkedin.com/in/alex-pavlyk/"
-            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
+            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-slate-950 text-white cursor-pointer hover:bg-blue-600"
           >
             <RxLinkedinLogo size={40} color={"white"} hover={50} />
           </a>
           <a
             href="https://github.com/agpavlik"
-            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
+            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-slate-950 text-white cursor-pointer hover:bg-blue-600"
           >
             <FaGithubSquare size={40} />
           </a>
-          <button className="hover:shadow-[0_0_10px_5px_orange] h-[40px] bg-orange-800 text-lg text-white font-semibold rounded-md py-2 px-5 hover:bg-orange-600 easi-in duration-300">
+          {/* hover:shadow-[0_0_10px_5px_orange] */}
+          <button className="leading-3 h-[40px] bg-orange-700 text-lg text-gray-100 border-2 border-gray-100 font-semibold rounded-md py-2 px-5 hover:bg-white hover:border-orange-700 hover:text-orange-700 cursor-pointer easi-in duration-300">
             RESUME
           </button>
         </div>

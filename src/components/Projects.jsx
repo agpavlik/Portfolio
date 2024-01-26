@@ -21,7 +21,7 @@ function Projects() {
       className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
     >
       <div className="w-full flex flex-col pt-5 pb-20 px-8 gap-10 border-b-[1px] border-gray-500">
-        <h4 className="text-3xl font-bold text-black dark:text-white">
+        <h4 className="text-3xl font-bold text-black dark:text-gray-100">
           My recent projects
         </h4>
 
@@ -44,7 +44,7 @@ function Projects() {
 
               <div
                 onClick={() => showModalHandler(project.id)}
-                className="w-full h-full  hover:bg-blue-800 opacity-70 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md duration-300
+                className="w-full h-full hover:bg-blue-800 opacity-70 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md duration-300
               "
               >
                 <div className="w-full h-full flex flex-col items-center justify-center">
@@ -52,7 +52,7 @@ function Projects() {
                     <h2>{project.title}</h2>
                   </div>
 
-                  <button className="text-white bg-[#04133e] hover:bg-blue-800 py-2 px-2 rounded-[20px] ease-in duration-200">
+                  <button className="text-white hover:bg-blue-800 py-2 px-2 rounded-[20px] ease-in duration-200">
                     <PiArrowSquareOutBold size={20} color={"white"} />
                   </button>
                 </div>

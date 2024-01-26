@@ -54,56 +54,56 @@ function Skills() {
         {/* ----- Set of buttons for selection start -----*/}
         <div className="flex items-center justify-between flex-wrap mb-10">
           <div>
-            <h4 className="text-3xl font-bold text-black dark:text-white mb-10 text-center">
+            <h4 className="text-3xl font-bold text-black dark:text-gray-100 mb-10 text-center">
               My skill set
             </h4>
           </div>
           <div className="flex gap-3 flex-wrap">
             <button
               onClick={() => setSelectTab("all")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               All
             </button>
             <button
               onClick={() => setSelectTab("language")}
-              className=" text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className=" text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Languages
             </button>
             <button
               onClick={() => setSelectTab("frontend")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Frontend
             </button>
             <button
               onClick={() => setSelectTab("backend")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Backend
             </button>
             <button
               onClick={() => setSelectTab("design")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Design
             </button>
             <button
               onClick={() => setSelectTab("library")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Useful libraries
             </button>
             <button
               onClick={() => setSelectTab("testing")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Testing
             </button>
             <button
               onClick={() => setSelectTab("tool")}
-              className="text-white bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-white py-1 px-4 rounded-[8px]"
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Tools
             </button>

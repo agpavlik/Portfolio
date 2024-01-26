@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import { RxLinkedinLogo } from "react-icons/rx";
 import { FaDiscord } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
 
@@ -12,10 +11,10 @@ function Contact() {
     >
       <div className="w-full flex flex-col px-8 md:px-10 gap-10 py-5 ">
         <div className="w-1/2 flex flex-col">
-          <p className="text-3xl font-bold text-black dark:text-white pb-4">
+          <p className="text-3xl font-bold text-black dark:text-gray-100 pb-4">
             Get in Touch
           </p>
-          <p className="text-lg text-black dark:text-gray-400 leading-10">
+          <p className="text-lg text-black dark:text-gray-200 leading-10">
             Feel free to get in touch with me. I am always open to discussing
             new projects, creative ideas, or opportunities to be a part of your
             visions.
