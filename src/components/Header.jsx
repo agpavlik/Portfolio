@@ -46,10 +46,11 @@ const Header = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="text-md text-black dark:text-gray-200 mt-5 2xl:mt-10"
+            className="text-lg text-black dark:text-gray-200 mt-5 2xl:mt-10 mr-10"
           >
-            Full-Stack Web Developer with ability to learn and collaborate in
-            rapidly changing environments and compositions
+            Versatile front-end developer with a proactive approach to learning
+            and collaboration in rapidly changing environments, dedicated to
+            crafting engaging digital compositions.
           </p>
           <div className="mt-10 flex gap-10">
             <div className=" flex items-center justify-center flex-wrap gap-10">
@@ -72,7 +73,7 @@ const Header = () => {
 
         {/* ===== Right part - 3d model - start ===== */}
         <div className="w-full flex-1 flex justify-center">
-          <div className="w-[200px] h-[300px] md:w-[300px] md:h-[400px] 2xl:w-[400px] 2xl:h-[500px] relative md:mt-20 lg:mt-0 flex items-center justify-center">
+          <div className="w-[250px] h-[300px] md:w-[350px] md:h-[400px] lg:w-[400px] lg:h-[500px] relative md:mt-20 lg:mt-0 flex items-center justify-center">
             <Canvas>
               <Suspense fallback={null}>
                 <Stage environment="city" intensity={0.8}>

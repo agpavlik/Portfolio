@@ -7,10 +7,10 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="w-full px-0 lg:px-5 2xl:px-40 py-20 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+      className="w-full px-0 lg:px-5 2xl:px-40 py-20 dark:bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#05174e] via-[#030a1c] to-[#05174e]"
     >
       <div className="w-full flex flex-col px-8 md:px-10 gap-10 py-5 ">
-        <div className="w-1/2 flex flex-col">
+        <div className="sm:w-full lg:w-1/2 flex flex-col">
           <p className="text-3xl font-bold text-black dark:text-gray-100 pb-4">
             Get in Touch
           </p>

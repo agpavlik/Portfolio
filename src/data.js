@@ -384,16 +384,6 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Wild Oasis",
-    description: "lorem",
-    technologies: ["React", "CSS"],
-    url: "",
-    git: "",
-    img: port2,
-    video: 3,
-  },
-  {
-    id: 4,
     title: "Pollarazing",
     description:
       "App allows users to make a decision by creating polls. A creator can add dozens of answer options and comments. The poll is shared through emails. The voting process was realized with drag-and-drop functionality. Result is shown on the bar chart.",
@@ -411,6 +401,16 @@ export const projects = [
     git: "https://github.com/agpavlik/LHL-project-decision-maker",
     img: poll,
     video: pollVideo,
+  },
+  {
+    id: 4,
+    title: "Wild Oasis",
+    description: "lorem",
+    technologies: ["React", "CSS"],
+    url: "",
+    git: "",
+    img: port2,
+    video: 3,
   },
   {
     id: 5,
@@ -438,7 +438,7 @@ export const projects = [
     id: 7,
     title: "MythiCare",
     description:
-      "A pet sitting app where user can find or become a sitter for the pets. User can create profiles for pets, including information such as their vaccination status and their typical daily consumption of feed. User can book and connect with pet sitters.",
+      "A pet sitting app where user can find or become a sitter for the pets. User can create profiles for pets, including information such as their vaccination status and their typical daily consumption of feed. User can book and connect with pet sitters. Authentication functionality.",
     technologies: ["React", "Bootstrap", "Node", "Express", "PostgreSQL"],
     url: "",
     git: "https://github.com/agpavlik/LHL-project-MythiCare",

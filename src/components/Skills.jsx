@@ -48,7 +48,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
+      className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#05174e] via-[#030a1c] to-[#05174e]"
     >
       <div className="w-full min-h-screen flex flex-col pt-5 pb-20 px-8 border-b-[1px] border-gray-500">
         {/* ----- Set of buttons for selection start -----*/}

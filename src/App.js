@@ -27,7 +27,7 @@ function App() {
     <div
       className={`w-full h-full min-h-[100vh] bg-white ${darkMode && "dark"}`}
     >
-      <nav className="px-4 z-10 fixed w-full top-0 left-0 bg-white dark:bg-[#061130]">
+      <nav className="px-0 z-10 fixed w-full top-0 left-0 bg-white dark:bg-[#061130]">
         <Navbar
           darkMode={darkMode}
           isOpen={isOpen}
@@ -36,7 +36,7 @@ function App() {
         />
       </nav>
       <div className="w-full h-full min-h-[100vh] bg-white">
-        <div className="dark:bg-gradient-to-tr from-[#0235a3] via-[#030a1c] to-[#05174e]">
+        <div className="dark:bg-gradient-to-tr from-[#05174e] via-[#030a1c] to-[#0235a3]">
           <Header />
         </div>
         <About />
@@ -44,7 +44,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
-      <div className="w-full px-4 py-5 lg:py-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c] ">
+      <div className="w-full px-4 py-5 lg:py-0 bg-[#061130] ">
         <Footer />
       </div>
     </div>

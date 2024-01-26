@@ -18,7 +18,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+      className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] via-[#030a1c] to-[#05174e]"
     >
       <div className="w-full flex flex-col pt-5 pb-20 px-8 gap-10 border-b-[1px] border-gray-500">
         <h4 className="text-3xl font-bold text-black dark:text-gray-100">
@@ -34,12 +34,12 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               key={index}
-              className="group w-[400px] h-[300px] cursor-pointer shadow-2xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
+              className="group w-[400px] sm:h-[200px] md:h-[300px] cursor-pointer shadow-2xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
             >
               <img
                 src={project.img}
                 alt={project.name}
-                className="w-full h-[300px] object-cover rounded-md "
+                className="w-full sm:h-[200px] md:h-[300px] object-cover rounded-md "
               />
 
               <div
