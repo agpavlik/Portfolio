@@ -9,16 +9,16 @@ import { Link } from "react-scroll";
 
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
-    <div className="px-0 2xl:px-40 border-b-[1px] border-gray-500">
+    <div className="px-0 2xl:px-40 border-b-[2px] border-gray-500">
       <div className="w-full items-center justify-between py-4 px-10">
         <div className="flex items-center justify-between w-full">
           {/*===== Home icon start =====*/}
           <a
             href="#home"
-            className="text-2xl font-bold text-blue-500 cursor-pointer"
+            className="text-2xl font-bold text-[#1976D2] cursor-pointer"
           >
             <GoHome
-              className={`${darkMode ? "text-white" : "text-blue-500"}`}
+              className={`${darkMode ? "text-white" : "text-[#1976D2]"}`}
             />
           </a>
           {/*===== Home icon end =====*/}
@@ -28,8 +28,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             {navdata.map((nav) => (
               <li
                 key={nav.id}
-                // activeClass="active"
-                className="cursor-pointer hover:text-blue-500 tracking-wider font-medium duration-300"
+                className="cursor-pointer hover:text-[#1976D2] tracking-wider font-medium duration-300"
               >
                 {/* <a href={nav.link}>{nav.title}</a> */}
 
@@ -53,7 +52,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             {darkMode ? (
               <FiSun size={20} color={"white"} />
             ) : (
-              <IoMoonOutline size={20} color={"#3b82f6"} />
+              <IoMoonOutline size={20} color={"#1976D2"} />
             )}
           </button>
           {/*===== Dark mode button end =====*/}
@@ -84,48 +83,30 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           {/*===== Mobile menu icon end =====*/}
         </div>
         {/*===== Mobile menu start=====*/}
+
         <div
           className={`${isOpen ? "block pt-4" : "hidden"} md:hidden`}
           id="mobile-menu"
         >
-          <div className="flex flex-col gap-4 text-md text-gray-700 dark:text-neutral-200">
-            <a
-              href="#about"
-              onClick={toggleMenu}
-              className="cursor-pointer  hover:text-blue-500"
-              tracking-wider
-              font-medium
-            >
-              About
-            </a>
-            <a
-              href="#skills"
-              onClick={toggleMenu}
-              className="cursor-pointer  hover:text-blue-500"
-              tracking-wider
-              font-medium
-            >
-              Skills
-            </a>
-            <a
-              href="#projects"
-              onClick={toggleMenu}
-              className="cursor-pointer hover:text-blue-500"
-              tracking-wider
-              font-medium
-            >
-              Projects
-            </a>
-            <a
-              href="#contact"
-              onClick={toggleMenu}
-              className="cursor-pointer hover:text-blue-500"
-              tracking-wider
-              font-medium
-            >
-              Contact
-            </a>
-          </div>
+          <ul className="flex flex-col gap-4 text-md text-gray-700 dark:text-neutral-200 list-none">
+            {navdata.map((nav) => (
+              <li
+                key={nav.id}
+                className="cursor-pointer hover:text-[#1976D2] tracking-wider font-medium duration-300"
+              >
+                <Link
+                  activeClass="active"
+                  to={nav.link}
+                  spy={true}
+                  smooth={false}
+                  offset={-70}
+                  duration={0}
+                >
+                  {nav.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
         {/*===== Mobile menu end=====*/}
       </div>

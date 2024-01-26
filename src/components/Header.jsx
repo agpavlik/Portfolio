@@ -7,8 +7,8 @@ import { RxLinkedinLogo } from "react-icons/rx";
 
 const Header = () => {
   return (
-    <section id="home" className="px-0 lg:px-5 2xl:px-40 py-20 lg:py-0">
-      <div className="w-full flex flex-col lg:flex-row px-4 md:px-10 gap-10 2xl:gap-20 py-20">
+    <section id="home" className="px-0 lg:px-5 2xl:px-40 pt-20 lg:py-0">
+      <div className="w-full flex flex-col lg:flex-row px-8 gap-10 2xl:gap-20 py-20 border-b-[1px] border-gray-500">
         {/* ===== Left part start ===== */}
         <div
           className="flex flex-col justify-center mt-10"

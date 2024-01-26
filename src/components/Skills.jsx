@@ -48,14 +48,14 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="w-full h-full px-0 lg:px-5 2xl:px-40 py-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
+      className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
     >
-      <div className="w-full h-auto flex flex-col py-10 px-8">
+      <div className="w-full min-h-screen flex flex-col pt-5 pb-20 px-8 border-b-[1px] border-gray-500">
         {/* ----- Set of buttons for selection start -----*/}
         <div className="flex items-center justify-between flex-wrap mb-10">
           <div>
             <h4 className="text-3xl font-bold text-black dark:text-white mb-10 text-center">
-              My Skill Set
+              My skill set
             </h4>
           </div>
           <div className="flex gap-3 flex-wrap">

@@ -7,9 +7,9 @@ function About() {
   return (
     <section
       id="about"
-      className="w-full px-0 lg:px-5 2xl:px-40 py-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+      className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
     >
-      <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 lg:gap-20 lg:py-20 border-b-[1px] border-gray-500">
+      <div className="w-full flex flex-col lg:flex-row px-8 gap-10 lg:gap-20 lg:py-10 border-b-[1px] border-gray-500">
         <div className="w-full md:h-[290px] lg:w-11/12 flex flex-col items-center bg-white border border-gray-500 rounded-md">
           <img
             src={Profile}
@@ -26,7 +26,10 @@ function About() {
             rapidly changing environments and compositions. Worked through hours
             of bootcamp structure, learning JavaScript, NodeJs, ReactJs, NextJs
             and TypeScript. Eager to tackle web development/design challenges to
-            achieve lasting impacts on user experience.
+            achieve lasting impacts on user experience. Full-Stack Web Developer
+            with ability to learn and collaborate in rapidly changing
+            environments and compositions. Worked through hours of bootcamp
+            structure, learning JavaScript.
           </p>
         </div>
 

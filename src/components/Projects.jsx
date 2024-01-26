@@ -18,11 +18,11 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="w-full px-0 lg:px-5 2xl:px-40 py-10 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+      className="w-full px-0 lg:px-5 2xl:px-40 pt-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
     >
-      <div className="w-full flex flex-col py-5 px-8 md:px-10 gap-10 lg:gap-10">
-        <h4 className="text-3xl font-bold text-black dark:text-white mt-10 ">
-          My recent Projects
+      <div className="w-full flex flex-col pt-5 pb-20 px-8 gap-10 border-b-[1px] border-gray-500">
+        <h4 className="text-3xl font-bold text-black dark:text-white">
+          My recent projects
         </h4>
 
         <div className="flex flex-wrap gap-5 lg:gap-10 justify-center ">

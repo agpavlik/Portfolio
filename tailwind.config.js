@@ -25,7 +25,7 @@ module.exports = {
         designColor: "#ff014f",
       },
       boxShadow: {
-        shadowOne: "2px 2px 50px blue",
+        shadowOne: "2px 2px 50px #1565C0",
       },
     },
   },
