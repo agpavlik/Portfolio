@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="px-0 border-t-[1px] border-gray-600">
+    <footer className="px-0">
       <div className="w-full flex flex-col py-5 px-4 gap-2.5 justify-center ">
         <div className="flex flex-row text-sm gap-5 text-white justify-center ">
           <a href="#home" className="cursor-pointer  hover:text-blue-500">

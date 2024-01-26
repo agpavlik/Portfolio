@@ -24,7 +24,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           {/*===== Home icon end =====*/}
 
           {/*===== Menu start=====*/}
-          <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
+          <ul className="hidden md:flex gap-10 text-md text-slate-800 dark:text-gray-200">
             {navdata.map((nav) => (
               <li
                 key={nav.id}
