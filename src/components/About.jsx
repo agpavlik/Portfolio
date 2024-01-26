@@ -7,9 +7,9 @@ function About() {
   return (
     <section
       id="about"
-      className="w-full px-0 lg:px-5 2xl:px-40 py-10 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+      className="w-full px-0 lg:px-5 2xl:px-40 py-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
     >
-      <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 lg:gap-20 lg:py-20 ">
+      <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 lg:gap-20 lg:py-20 border-b-[1px] border-gray-500">
         <div className="w-full md:h-[290px] lg:w-11/12 flex flex-col items-center bg-white border border-gray-500 rounded-md">
           <img
             src={Profile}
@@ -41,7 +41,7 @@ function About() {
         >
           <a
             href="https://www.linkedin.com/in/alex-pavlyk/"
-            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] cursor-pointer hover:bg-blue-800"
+            className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
           >
             <RxLinkedinLogo size={40} color={"white"} hover={50} />
           </a>

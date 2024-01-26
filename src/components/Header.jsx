@@ -19,26 +19,40 @@ const Header = () => {
           // data-aos-easing="ease-in-out"
         >
           <div className="flex gap-4 items-center mt-30">
-            <h1 className="text-gray-800 dark:text-neutral-100 text-3xl md:text-4xl 2xl:text-5xl font-extrabold text-center mb-4">
+            <h1
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              className="text-gray-800 dark:text-neutral-100 text-3xl md:text-4xl 2xl:text-5xl font-extrabold text-center mb-4"
+            >
               ALEX PAVLYK
             </h1>
           </div>
-          <h1 className="text-2xl 2xl:text-4xl font-bold text-black dark:text-neutral-100 tracking-wider">
+          <h1
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="text-2xl 2xl:text-4xl font-bold text-black dark:text-neutral-100 tracking-wider"
+          >
             FRONTEND DEVELOPER
           </h1>
-          <p className="text-md text-black dark:text-gray-100 mt-5 2xl:mt-10">
+          <p
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="text-md text-black dark:text-gray-100 mt-5 2xl:mt-10"
+          >
             Full-Stack Web Developer with ability to learn and collaborate in
             rapidly changing environments and compositions
           </p>
           <div className="mt-10 flex gap-10">
-            <div
-              className=" flex items-center justify-center flex-wrap gap-10"
-              // data-aos="fade-up"
-              // data-aos-offset="200"
-              // data-aos-delay="50"
-              // data-aos-duration="1000"
-              // data-aos-easing="ease-in-out"
-            >
+            <div className=" flex items-center justify-center flex-wrap gap-10">
               <a
                 href="https://www.linkedin.com/in/alex-pavlyk/"
                 className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-[#030a1c] cursor-pointer hover:bg-blue-800"

@@ -4,6 +4,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800&display=swap");
 
+@layer components {
+  .bannerIcon {
+    @apply w-16 h-16 bg-[#030a1c] text-gray-300 hover:text-white text-xl inline-flex items-center justify-center rounded-md hover:shadow-shadowOne hover:bg-blue-800 hover:-translate-y-1 transition-all cursor-pointer duration-300;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +18,8 @@
 
 body {
   font-family: "Urbanist", sans-serif;
+}
+
+.active {
+  color: #1565c0;
 }

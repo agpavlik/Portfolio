@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { FaDiscord } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
@@ -21,7 +21,7 @@ function Contact() {
             visions.
           </p>
         </div>
-        
+
         {/* ----- Set of buttons start----- */}
         <div
           className="lg:w-1/2 sm:w-full mt-5 2xl:mt-10 flex items-center justify-center flex-wrap gap-20"
@@ -33,27 +33,26 @@ function Contact() {
         >
           <a
             href="https://www.linkedin.com/in/alex-pavlyk/"
-            className="h-[60px] flex gap-3 items-center justify-center rounded-[8px] shadow-lg bg-[#030a1c] cursor-pointer hover:bg-blue-800"
+            className="flex gap-4"
           >
-            <RxLinkedinLogo size={60} color={"white"} />
+            <span className="bannerIcon">
+              <FaLinkedin size={60} />
+            </span>
           </a>
-          <a
-            href="https://github.com/agpavlik"
-            className="h-[60px] flex gap-3 items-center justify-center rounded-[8px] shadow-lg bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
-          >
-            <FaGithubSquare size={60} />
+          <a href="https://github.com/agpavlik" className="flex gap-4">
+            <span className="bannerIcon">
+              <FaGithubSquare size={60} />
+            </span>
           </a>
-          <a
-            href="https://github.com/agpavlik"
-            className="h-[60px] w-[60px] flex gap-3 items-center justify-center rounded-[8px] shadow-lg bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
-          >
-            <FaDiscord size={50} />
+          <a href=" ..." className="flex gap-4">
+            <span className="bannerIcon">
+              <FaDiscord size={50} />
+            </span>
           </a>
-          <a
-            href="https://github.com/agpavlik"
-            className="h-[60px] w-[60px] flex gap-3 items-center justify-center rounded-[8px] shadow-lg bg-[#030a1c] text-white cursor-pointer hover:bg-blue-800"
-          >
-            <ImMail size={52} />
+          <a href=" ..." className="flex gap-4">
+            <span className="bannerIcon">
+              <ImMail size={54} />
+            </span>
           </a>
         </div>
         {/* ----- Set of buttons end----- */}

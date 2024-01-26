@@ -59,3 +59,4 @@ export { default as pollVideo } from "./work/pollVideo.gif";
 export { default as petsitter } from "./work/petsitter.png";
 
 export { default as Profile } from "./profile.png";
+export { default as Laptop } from "./laptop.jpg";

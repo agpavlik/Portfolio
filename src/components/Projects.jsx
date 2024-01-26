@@ -13,6 +13,8 @@ function Projects() {
     setActiveID(id);
   };
 
+  // bg-gradient-to-r from-blue-800 to-blue-800 opacity-70 hover:bg-[length:100%_100%] bg-[length:0_100%] bg-no-repeat ease-in duration-300
+
   return (
     <section
       id="projects"
@@ -32,17 +34,17 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               key={index}
-              className="group w-[350px] h-[250px] cursor-pointer shadow-2xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
+              className="group w-[400px] h-[300px] cursor-pointer shadow-2xl hover:scale-110 ease-in-out duration-300 rounded-md z-[1]"
             >
               <img
                 src={project.img}
                 alt={project.name}
-                className="w-full h-[250px] object-cover rounded-md "
+                className="w-full h-[300px] object-cover rounded-md "
               />
 
               <div
                 onClick={() => showModalHandler(project.id)}
-                className="w-full h-full bg-gradient-to-l from-blue-800 to-blue-800 opacity-50 hover:bg-[length:100%_100%] bg-[length:0_100%] bg-no-repeat ease-in duration-300 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md 
+                className="w-full h-full  hover:bg-blue-800 opacity-70 absolute top-0 left-0 z-[5] hidden group-hover:block rounded-md duration-300
               "
               >
                 <div className="w-full h-full flex flex-col items-center justify-center">
