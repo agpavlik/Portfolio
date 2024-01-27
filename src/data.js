@@ -41,7 +41,6 @@ import {
   Tailwind,
   Vite,
   VS,
-  admin,
   petsitter,
   jungle,
   jungleVideo,
@@ -49,7 +48,9 @@ import {
   photoVideo,
   port2,
   poll,
-  pollVideo,
+  pollvideo,
+  mapmarker,
+  mapmarkervideo,
   Supabase,
 } from "./assets";
 
@@ -365,12 +366,13 @@ export const projects = [
   {
     id: 1,
     title: "Map-Marker",
-    description: "lorem",
-    technologies: ["React", "CSS"],
-    url: "",
-    git: "",
-    img: admin,
-    video: "",
+    description:
+      "Single-page application where users can register all the cities that they have ever traveled to. User can explore the world through an intuitive map interface, fetch and store the city by click. Each city has details, including its name, country, and additional notes user want to attach. User also can delete cities from the list.",
+    technologies: ["React", "React Router", "CSS Modules", "React Leaflet"],
+    url: "https://maps-marker.netlify.app/",
+    git: "https://github.com/agpavlik/Map-Marker",
+    img: mapmarker,
+    video: mapmarkervideo,
   },
   {
     id: 2,
@@ -400,7 +402,7 @@ export const projects = [
     url: "",
     git: "https://github.com/agpavlik/LHL-project-decision-maker",
     img: poll,
-    video: pollVideo,
+    video: pollvideo,
   },
   {
     id: 4,

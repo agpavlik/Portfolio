@@ -43,7 +43,6 @@ export { default as Fusion } from "./fusion.jpg";
 export { default as Krita } from "./krita.png";
 export { default as Three } from "./three.png";
 
-export { default as admin } from "./work/admin.png";
 export { default as food } from "./work/food.png";
 export { default as food1 } from "./work/food1.jpg";
 export { default as port1 } from "./work/port1.png";
@@ -55,7 +54,10 @@ export { default as jungle } from "./work/jungle.png";
 export { default as photoVideo } from "./work/photovideo.gif";
 export { default as photolab } from "./work/photolab.png";
 export { default as poll } from "./work/poll.png";
-export { default as pollVideo } from "./work/pollVideo.gif";
+export { default as pollvideo } from "./work/pollVideo.gif";
+export { default as mapmarker } from "./work/mapmarker.png";
+export { default as mapmarkervideo } from "./work/mapmarkervideo.gif";
+
 export { default as petsitter } from "./work/petsitter.png";
 
 export { default as Profile } from "./profile.png";

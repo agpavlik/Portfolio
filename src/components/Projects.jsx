@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { projects } from "../data";
 import Modal from "./Modal";
 import { PiArrowSquareOutBold } from "react-icons/pi";
 
 function Projects() {
-  // Open/close Modal window
+  // Open/close modal window
   const [showModal, setShowModal] = useState(false);
   const [activeID, setActiveID] = useState(null);
 
@@ -13,7 +13,10 @@ function Projects() {
     setActiveID(id);
   };
 
-  // bg-gradient-to-r from-blue-800 to-blue-800 opacity-70 hover:bg-[length:100%_100%] bg-[length:0_100%] bg-no-repeat ease-in duration-300
+  // Prevent scroll when modal is open
+  useEffect(() => {
+    document.body.style.overflow = showModal ? "hidden" : "unset";
+  }, [showModal]);
 
   return (
     <section

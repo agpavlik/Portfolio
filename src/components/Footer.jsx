@@ -24,10 +24,10 @@ function Footer() {
 
         <div className=" text-xs flex text-white flex-row justify-between">
           <div>
-            <p className="text-center">@ 2023 ALL RIGHTS RESERVED</p>
+            <p className="text-center ml-10">Copyright © 2023 by Alex Pavlyk</p>
           </div>
           <div>
-            <p className="text-center">DEVELOPED BY ALEX_PAVLYK</p>
+            <p className="text-center mr-10">All right reserved.</p>
           </div>
         </div>
       </div>
