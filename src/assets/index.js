@@ -57,8 +57,11 @@ export { default as poll } from "./work/poll.png";
 export { default as pollvideo } from "./work/pollVideo.gif";
 export { default as mapmarker } from "./work/mapmarker.png";
 export { default as mapmarkervideo } from "./work/mapmarkervideo.gif";
+export { default as oasisbackside } from "./work/oasisbackside.png";
+export { default as obsvideo } from "./work/obsvideo.gif";
 
 export { default as petsitter } from "./work/petsitter.png";
 
 export { default as Profile } from "./profile.png";
 export { default as Laptop } from "./laptop.jpg";
+export { default as giphy } from "./giphy.gif";

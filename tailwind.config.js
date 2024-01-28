@@ -18,11 +18,8 @@ module.exports = {
         bodyFont: ["Poppins", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
       },
-      colors: {
-        bodyColor: "#212428",
-        lightText: "#c4cfde",
-        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#ff014f",
+      backgroundImage: {
+        giphy: "url('./assets/giphy.gif')",
       },
       boxShadow: {
         shadowOne: "2px 2px 50px #1565C0",

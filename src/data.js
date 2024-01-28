@@ -46,7 +46,8 @@ import {
   jungleVideo,
   photolab,
   photoVideo,
-  port2,
+  oasisbackside,
+  obsvideo,
   poll,
   pollvideo,
   mapmarker,
@@ -376,6 +377,25 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Oasis Backside",
+    description:
+      "Oasis Backside is the internal application used inside the hotel to manage bookings, rooms and guests. New users can only be sighed up inside the application. User can create, update and delete hotel rooms. User can delete, check in, or check out a booking.",
+    technologies: [
+      "React",
+      "React Router",
+      "React Query",
+      "React Hook Forms",
+      "Supabase",
+      "Styled Components",
+    ],
+    url: "https://oasis-backside.netlify.app/",
+    git: "https://github.com/agpavlik/Oasis-Backside",
+    img: oasisbackside,
+    video: obsvideo,
+  },
+
+  {
+    id: 3,
     title: "Pizzolino",
     description: "lorem",
     technologies: ["React", "CSS"],
@@ -385,7 +405,7 @@ export const projects = [
     vide0: 2,
   },
   {
-    id: 3,
+    id: 4,
     title: "Pollarazing",
     description:
       "App allows users to make a decision by creating polls. A creator can add dozens of answer options and comments. The poll is shared through emails. The voting process was realized with drag-and-drop functionality. Result is shown on the bar chart.",
@@ -404,16 +424,7 @@ export const projects = [
     img: poll,
     video: pollvideo,
   },
-  {
-    id: 4,
-    title: "Wild Oasis",
-    description: "lorem",
-    technologies: ["React", "CSS"],
-    url: "",
-    git: "",
-    img: port2,
-    video: 3,
-  },
+
   {
     id: 5,
     title: "PhotoLabs",
