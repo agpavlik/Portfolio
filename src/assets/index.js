@@ -59,6 +59,8 @@ export { default as mapmarker } from "./work/mapmarker.png";
 export { default as mapmarkervideo } from "./work/mapmarkervideo.gif";
 export { default as oasisbackside } from "./work/oasisbackside.png";
 export { default as obsvideo } from "./work/obsvideo.gif";
+export { default as pizzolino } from "./work/pizzolino.png";
+export { default as pizzolinoVideo } from "./work/pizzolinoVideo.gif";
 
 export { default as petsitter } from "./work/petsitter.png";
 

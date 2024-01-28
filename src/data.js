@@ -50,6 +50,8 @@ import {
   obsvideo,
   poll,
   pollvideo,
+  pizzolino,
+  pizzolinoVideo,
   mapmarker,
   mapmarkervideo,
   Supabase,
@@ -397,12 +399,13 @@ export const projects = [
   {
     id: 3,
     title: "Pizzolino",
-    description: "lorem",
-    technologies: ["React", "CSS"],
-    url: "",
-    git: "",
-    img: "",
-    vide0: 2,
+    description:
+      "The application allows users to order pizza fast requiring no user account and no login. User can add multiple pizzas to a card and mark order 'priority'. Also User can provide a GPS location to make delivery easier",
+    technologies: ["React", "React Router", "Redux", "Tailwind CSS"],
+    url: "https://pizzolino.netlify.app/",
+    git: "https://github.com/agpavlik/Pizzolino",
+    img: pizzolino,
+    vide0: pizzolinoVideo,
   },
   {
     id: 4,
