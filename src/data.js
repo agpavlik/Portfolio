@@ -432,7 +432,7 @@ export const projects = [
       "Express",
       "PostgreSQL",
     ],
-    url: "https://github.com/agpavlik/LHL-project-decision-maker",
+    url: "",
     git: "https://github.com/agpavlik/LHL-project-decision-maker",
     img: poll,
     video: pollvideo,

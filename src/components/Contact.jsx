@@ -32,23 +32,40 @@ function Contact() {
         >
           <a
             href="https://www.linkedin.com/in/alex-pavlyk/"
+            target="_blank"
+            rel="noreferrer"
             className="flex gap-4"
           >
             <span className="bannerIcon">
               <FaLinkedin size={60} />
             </span>
           </a>
-          <a href="https://github.com/agpavlik" className="flex gap-4">
+          <a
+            href="https://github.com/agpavlik"
+            target="_blank"
+            rel="noreferrer"
+            className="flex gap-4"
+          >
             <span className="bannerIcon">
               <FaGithubSquare size={60} />
             </span>
           </a>
-          <a href=" ..." className="flex gap-4">
+          <a
+            href=" ..."
+            target="_blank"
+            rel="noreferrer"
+            className="flex gap-4"
+          >
             <span className="bannerIcon">
               <FaDiscord size={50} />
             </span>
           </a>
-          <a href=" ..." className="flex gap-4">
+          <a
+            href=" ..."
+            target="_blank"
+            rel="noreferrer"
+            className="flex gap-4"
+          >
             <span className="bannerIcon">
               <ImMail size={54} />
             </span>

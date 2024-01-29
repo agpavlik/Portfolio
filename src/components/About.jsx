@@ -45,12 +45,16 @@ function About() {
         >
           <a
             href="https://www.linkedin.com/in/alex-pavlyk/"
+            target="_blank"
+            rel="noreferrer"
             className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-slate-950 text-white cursor-pointer hover:bg-blue-600"
           >
             <RxLinkedinLogo size={40} color={"white"} hover={50} />
           </a>
           <a
             href="https://github.com/agpavlik"
+            target="_blank"
+            rel="noreferrer"
             className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-slate-950 text-white cursor-pointer hover:bg-blue-600"
           >
             <FaGithubSquare size={40} />
