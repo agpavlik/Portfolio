@@ -27,12 +27,12 @@ const Modal = ({ activeID, setShowModal }) => {
               </h2>
             </div>
             <div className="flex w-1/2 items-center justify-center">
-              <a href={project.url}>
+              <a href={project.url} target="_blank" rel="noreferrer">
                 <button className="py-1 px-1 my-5 mr-10 rounded-[20px] font-[500] bg-[#04133e] hover:bg-blue-600 animate-pulse">
                   <BsGlobe size={24} color={"white"} />
                 </button>
               </a>
-              <a href={project.git}>
+              <a href={project.git} target="_blank" rel="noreferrer">
                 <button className="py-1 px-1 my-5 rounded-[20px] font-[500] bg-[#04133e] hover:bg-blue-600 animate-pulse">
                   <BsGithub size={24} color={"white"} />
                 </button>

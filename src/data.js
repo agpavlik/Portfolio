@@ -409,6 +409,17 @@ export const projects = [
   },
   {
     id: 4,
+    title: "PhotoLabs",
+    description:
+      "A React-based SPA that allows users to view photos in different contexts. User can navigate to different photo categories and mark photos. User can click on a photo to view of its larger version.",
+    technologies: ["React", "Bootstrap", "Node", "Express", "MongoDB"],
+    url: "",
+    git: "https://github.com/agpavlik/LHL-project-photolabs",
+    img: photolab,
+    video: photoVideo,
+  },
+  {
+    id: 5,
     title: "Pollarazing",
     description:
       "App allows users to make a decision by creating polls. A creator can add dozens of answer options and comments. The poll is shared through emails. The voting process was realized with drag-and-drop functionality. Result is shown on the bar chart.",
@@ -422,23 +433,12 @@ export const projects = [
       "Express",
       "PostgreSQL",
     ],
-    url: "",
+    url: "https://github.com/agpavlik/LHL-project-decision-maker",
     git: "https://github.com/agpavlik/LHL-project-decision-maker",
     img: poll,
     video: pollvideo,
   },
 
-  {
-    id: 5,
-    title: "PhotoLabs",
-    description:
-      "A React-based SPA that allows users to view photos in different contexts. User can navigate to different photo categories and mark photos. User can click on a photo to view of its larger version.",
-    technologies: ["React", "Bootstrap", "Node", "Express", "MongoDB"],
-    url: "",
-    git: "https://github.com/agpavlik/LHL-project-photolabs",
-    img: photolab,
-    video: photoVideo,
-  },
   {
     id: 6,
     title: "Jungle",
@@ -449,17 +449,6 @@ export const projects = [
     git: "https://github.com/agpavlik/LHL-project-Jungle",
     img: jungle,
     video: jungleVideo,
-  },
-  {
-    id: 7,
-    title: "MythiCare",
-    description:
-      "A pet sitting app where user can find or become a sitter for the pets. User can create profiles for pets, including information such as their vaccination status and their typical daily consumption of feed. User can book and connect with pet sitters. Authentication functionality.",
-    technologies: ["React", "Bootstrap", "Node", "Express", "PostgreSQL"],
-    url: "",
-    git: "https://github.com/agpavlik/LHL-project-MythiCare",
-    img: petsitter,
-    video: petsitter,
   },
 ];
 
