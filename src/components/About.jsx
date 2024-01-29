@@ -61,7 +61,13 @@ function About() {
           </a>
           {/* hover:shadow-[0_0_10px_5px_orange] */}
           <button className="leading-3 h-[40px] bg-orange-700 text-lg text-gray-100 border-2 border-gray-100 font-semibold rounded-md py-2 px-5 hover:bg-white hover:border-orange-700 hover:text-orange-700 cursor-pointer easi-in duration-300">
-            RESUME
+            <a
+              href="https://flowcv.com/resume/95vgl16kej"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RESUME
+            </a>
           </button>
         </div>
         {/* ----- Set of buttons end----- */}

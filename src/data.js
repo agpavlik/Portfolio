@@ -369,7 +369,7 @@ export const projects = [
     id: 1,
     title: "Map-Marker",
     description:
-      "Single-page application where users can register all the cities that they have ever traveled to. User can explore the world through an intuitive map interface, fetch and store the city by click. Each city has details, including its name, country, and additional notes user want to attach. User also can delete cities from the list.",
+      "Single-page application where users can register all the cities that they have ever traveled to. User can explore the world through an intuitive map interface, fetch and store the city by click. Each city has details, including its name, country, and additional notes user wants to attach. User also can delete cities from the list.",
     technologies: ["React", "React Router", "CSS Modules", "React Leaflet"],
     url: "https://maps-marker.netlify.app/",
     git: "https://github.com/agpavlik/Map-Marker",
@@ -380,7 +380,7 @@ export const projects = [
     id: 2,
     title: "Oasis Backside",
     description:
-      "Oasis Backside is the internal application used inside the hotel to manage bookings, rooms and guests. New users can only be sighed up inside the application. User can create, update and delete hotel rooms. User can delete, check in, or check out a booking.",
+      "Oasis Backside is the internal application used inside the hotel to manage bookings, rooms, and guests. New users can only be signed up inside the application. Users can create, update and delete hotel rooms. Users can delete, check in, or check out a booking.",
     technologies: [
       "React",
       "React Router",
