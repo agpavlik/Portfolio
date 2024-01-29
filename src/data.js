@@ -412,7 +412,7 @@ export const projects = [
     description:
       "A React-based SPA that allows users to view photos in different contexts. User can navigate to different photo categories and mark photos. User can click on a photo to view of its larger version.",
     technologies: ["React", "Bootstrap", "Node", "Express", "MongoDB"],
-    url: "",
+    url: "https://github.com/agpavlik/LHL-project-photolabs",
     git: "https://github.com/agpavlik/LHL-project-photolabs",
     img: photolab,
     video: photoVideo,
@@ -432,7 +432,7 @@ export const projects = [
       "Express",
       "PostgreSQL",
     ],
-    url: "",
+    url: "https://github.com/agpavlik/LHL-project-decision-maker",
     git: "https://github.com/agpavlik/LHL-project-decision-maker",
     img: poll,
     video: pollvideo,
@@ -444,7 +444,7 @@ export const projects = [
     description:
       "Plants and flowers online shop. Authentication functionality. User can observe various categories of products, fill the basket in, and buy chosen products using the card. The admin can provide some manipulation by adding/deleting products and categories.",
     technologies: ["Ruby on Rails", "PostgreSQL", "Strap"],
-    url: "",
+    url: "https://github.com/agpavlik/LHL-project-Jungle",
     git: "https://github.com/agpavlik/LHL-project-Jungle",
     img: jungle,
     video: jungleVideo,
