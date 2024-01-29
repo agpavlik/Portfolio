@@ -43,12 +43,6 @@ export { default as Fusion } from "./fusion.jpg";
 export { default as Krita } from "./krita.png";
 export { default as Three } from "./three.png";
 
-export { default as food } from "./work/food.png";
-export { default as food1 } from "./work/food1.jpg";
-export { default as port1 } from "./work/port1.png";
-export { default as port2 } from "./work/port2.png";
-export { default as port3 } from "./work/port3.png";
-export { default as social } from "./work/social.png";
 export { default as jungleVideo } from "./work/jungle.gif";
 export { default as jungle } from "./work/jungle.png";
 export { default as photoVideo } from "./work/photovideo.gif";
@@ -63,5 +57,3 @@ export { default as pizzolino } from "./work/pizzolino.png";
 export { default as pizzolinoVideo } from "./work/pizzolinoVideo.gif";
 
 export { default as Profile } from "./profile.png";
-export { default as Laptop } from "./laptop.jpg";
-export { default as giphy } from "./giphy.gif";
