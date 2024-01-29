@@ -51,7 +51,7 @@ function Contact() {
             </span>
           </a>
           <a
-            href=" ..."
+            href="https://discordapp.com/users/1085667541902442638"
             target="_blank"
             rel="noreferrer"
             className="flex gap-4"
@@ -61,7 +61,7 @@ function Contact() {
             </span>
           </a>
           <a
-            href=" ..."
+            href="mailto:olekpavlyk@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="flex gap-4"
