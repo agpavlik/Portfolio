@@ -62,8 +62,6 @@ export { default as obsvideo } from "./work/obsvideo.gif";
 export { default as pizzolino } from "./work/pizzolino.png";
 export { default as pizzolinoVideo } from "./work/pizzolinoVideo.gif";
 
-export { default as petsitter } from "./work/petsitter.png";
-
 export { default as Profile } from "./profile.png";
 export { default as Laptop } from "./laptop.jpg";
 export { default as giphy } from "./giphy.gif";

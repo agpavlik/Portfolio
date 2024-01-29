@@ -41,7 +41,6 @@ import {
   Tailwind,
   Vite,
   VS,
-  petsitter,
   jungle,
   jungleVideo,
   photolab,
