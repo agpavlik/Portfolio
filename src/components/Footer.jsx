@@ -22,12 +22,16 @@ function Footer() {
           </a>
         </div>
 
-        <div className=" text-xs flex text-white flex-row justify-between">
+        <div className=" text-xs flex text-white md:flex-row xs:flex-col justify-between">
           <div>
-            <p className="text-center ml-10">Copyright © 2023 by Alex Pavlyk</p>
+            <p className="text-center sm:ml-2 lg:ml-10">
+              Copyright © 2023 Alex Pavlyk
+            </p>
           </div>
           <div>
-            <p className="text-center mr-10">All right reserved.</p>
+            <p className="text-center sm:mr-2 lg:mr-20">
+              Built using React & Tailwind by Alex Pavlyk
+            </p>
           </div>
         </div>
       </div>
