@@ -41,6 +41,7 @@ import {
   Tailwind,
   Vite,
   VS,
+  Axios,
   jungle,
   jungleVideo,
   photolab,
@@ -72,29 +73,6 @@ export const projectStats = [
   {
     name: "Clients worldwide",
     value: "+86",
-  },
-];
-
-export const tools = [
-  {
-    name: "MongoDB",
-    icon: Mongodb,
-  },
-  {
-    name: "Express",
-    icon: Express,
-  },
-  {
-    name: "React",
-    icon: ReactJS,
-  },
-  {
-    name: "NodeJS",
-    icon: NodeJS,
-  },
-  {
-    name: "NextJS",
-    icon: Nextjs2,
   },
 ];
 
@@ -152,6 +130,12 @@ export const skills = [
     icon: Redux,
     category: "frontend",
     url: "https://redux.js.org/",
+  },
+  {
+    name: "Axios",
+    icon: Axios,
+    category: "frontend",
+    url: "https://axios-http.com/docs/intro",
   },
   {
     name: "React Query",
@@ -227,7 +211,6 @@ export const skills = [
     category: "testing",
     url: "",
   },
-
   {
     name: "React Leaflet",
     icon: Leaflet,

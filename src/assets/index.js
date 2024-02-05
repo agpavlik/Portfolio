@@ -42,6 +42,7 @@ export { default as Linux } from "./linux.svg";
 export { default as Fusion } from "./fusion.jpg";
 export { default as Krita } from "./krita.png";
 export { default as Three } from "./three.png";
+export { default as Axios } from "./axios.png";
 
 export { default as jungleVideo } from "./work/jungle.gif";
 export { default as jungle } from "./work/jungle.png";
