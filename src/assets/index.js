@@ -57,5 +57,6 @@ export { default as obsvideo } from "./work/obsvideo.gif";
 export { default as pizzolino } from "./work/pizzolino.png";
 export { default as pizzolinoVideo } from "./work/pizzolinoVideo.gif";
 export { default as flashbackup } from "./work/flashbackup.png";
+export { default as fbuVideo } from "./work/fbuVideo.gif";
 
 export { default as Profile } from "./profile.png";
