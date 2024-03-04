@@ -54,6 +54,8 @@ import {
   pizzolinoVideo,
   mapmarker,
   mapmarkervideo,
+  flashbackup,
+  fbuVideo,
   Supabase,
 } from "./assets";
 
@@ -391,6 +393,27 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Flashback-Up",
+    description:
+      "A React-based SPA that allows users to store remarkable places that they would like to memorize and share with the community.",
+    technologies: [
+      "React",
+      "React Router",
+      "Axios",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "bcrypt.js",
+      "jsonwebtoken",
+    ],
+    url: "https://flashback-up.netlify.app/",
+    git: "https://github.com/agpavlik/Geo",
+    img: flashbackup,
+    video: fbuVideo,
+  },
+  {
+    id: 5,
     title: "PhotoLabs",
     description:
       "A React-based SPA that allows users to view photos in different contexts. User can navigate to different photo categories and mark photos. User can click on a photo to view of its larger version.",
@@ -400,7 +423,7 @@ export const projects = [
     video: photoVideo,
   },
   {
-    id: 5,
+    id: 6,
     title: "Pollarazing",
     description:
       "App allows users to make a decision by creating polls. A creator can add dozens of answer options and comments. The poll is shared through emails. The voting process was realized with drag-and-drop functionality. Result is shown on the bar chart.",
@@ -420,7 +443,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Jungle",
     description:
       "Plants and flowers online shop. Authentication functionality. User can observe various categories of products, fill the basket in, and buy chosen products using the card. The admin can provide some manipulation by adding/deleting products and categories.",
