@@ -371,17 +371,6 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "Map-Marker",
-    description:
-      "Single-page application where users can register all the cities that they have ever traveled to. User can explore the world through an intuitive map interface, fetch and store the city by click. Each city has details, including its name, country, and additional notes user wants to attach. User also can delete cities from the list.",
-    technologies: ["React", "React Router", "CSS Modules", "React Leaflet"],
-    url: "https://maps-marker.netlify.app/",
-    git: "https://github.com/agpavlik/Map-Marker",
-    img: mapmarker,
-    video: mapmarkervideo,
-  },
-  {
-    id: 2,
     title: "Oasis Backside",
     description:
       "Oasis Backside is the internal application used inside the hotel to manage bookings, rooms, and guests. New users can only be signed up inside the application. Users can create, update and delete hotel rooms. Users can delete, check in, or check out a booking.",
@@ -398,20 +387,8 @@ export const projects = [
     img: oasisbackside,
     video: obsvideo,
   },
-
   {
-    id: 3,
-    title: "Pizzolino",
-    description:
-      "The application allows users to order pizza fast requiring no user account and no login. User can add multiple pizzas to a card and mark order 'priority'. Also User can provide a GPS location to make delivery easier",
-    technologies: ["React", "React Router", "Redux", "Tailwind CSS"],
-    url: "https://pizzolino.netlify.app/",
-    git: "https://github.com/agpavlik/Pizzolino",
-    img: pizzolino,
-    vide0: pizzolinoVideo,
-  },
-  {
-    id: 4,
+    id: 2,
     title: "Flashback-Up",
     description:
       "A React-based SPA that allows users to store remarkable places that they would like to memorize and share with the community.",
@@ -430,6 +407,28 @@ export const projects = [
     git: "https://github.com/agpavlik/Geo",
     img: flashbackup,
     video: fbuVideo,
+  },
+  {
+    id: 3,
+    title: "Pizzolino",
+    description:
+      "The application allows users to order pizza fast requiring no user account and no login. User can add multiple pizzas to a card and mark order 'priority'. Also User can provide a GPS location to make delivery easier",
+    technologies: ["React", "React Router", "Redux", "Tailwind CSS"],
+    url: "https://pizzolino.netlify.app/",
+    git: "https://github.com/agpavlik/Pizzolino",
+    img: pizzolino,
+    vide0: pizzolinoVideo,
+  },
+  {
+    id: 4,
+    title: "Map-Marker",
+    description:
+      "Single-page application where users can register all the cities that they have ever traveled to. User can explore the world through an intuitive map interface, fetch and store the city by click. Each city has details, including its name, country, and additional notes user wants to attach. User also can delete cities from the list.",
+    technologies: ["React", "React Router", "CSS Modules", "React Leaflet"],
+    url: "https://maps-marker.netlify.app/",
+    git: "https://github.com/agpavlik/Map-Marker",
+    img: mapmarker,
+    video: mapmarkervideo,
   },
   {
     id: 5,
