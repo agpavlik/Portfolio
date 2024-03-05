@@ -4,6 +4,9 @@ import {
   HTML,
   JavaScript,
   Mongodb,
+  Mongoose,
+  Render,
+  Postman,
   Krita,
   Three,
   Fusion,
@@ -151,7 +154,12 @@ export const skills = [
     category: "backend",
     url: "https://www.mongodb.com/",
   },
-
+  {
+    name: "Mongoose",
+    icon: Mongoose,
+    category: "backend",
+    url: "https://www.mongoose.com/",
+  },
   {
     name: "jQuery",
     icon: jQuery,
@@ -328,7 +336,18 @@ export const skills = [
     category: "library",
     url: "https://www.fusioncharts.com/",
   },
-
+  {
+    name: "Postman",
+    icon: Postman,
+    category: "tool",
+    url: "https://www.postman.com/",
+  },
+  {
+    name: "Render",
+    icon: Render,
+    category: "tool",
+    url: "https://www.render.com/",
+  },
   {
     name: "Krita",
     icon: Krita,

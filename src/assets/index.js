@@ -1,4 +1,7 @@
 export { default as Mongodb } from "./mongodb.png";
+export { default as Mongoose } from "./mongoose.png";
+export { default as Render } from "./render.png";
+export { default as Postman } from "./postman.svg";
 export { default as ReactJS } from "./reactjs.svg";
 export { default as NodeJS } from "./nodejs.svg";
 export { default as Redux } from "./redux.svg";
