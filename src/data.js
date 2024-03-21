@@ -62,6 +62,8 @@ import {
   flashbackup,
   fbuVideo,
   Supabase,
+  Auth,
+  OpenAI,
 } from "./assets";
 
 export const projectStats = [
@@ -186,7 +188,18 @@ export const skills = [
     category: "testing",
     url: "https://www.chaijs.com/",
   },
-
+  {
+    name: "OpenAI",
+    icon: OpenAI,
+    category: "library",
+    url: "https://openai.com/",
+  },
+  {
+    name: "Auth0",
+    icon: Auth,
+    category: "library",
+    url: "https://auth0.com/",
+  },
   {
     name: "ChartJS",
     icon: ChartJS,
