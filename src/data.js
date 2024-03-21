@@ -53,6 +53,8 @@ import {
   obsvideo,
   poll,
   pollvideo,
+  blogener,
+  blogenerVideo,
   pizzolino,
   pizzolinoVideo,
   mapmarker,
@@ -389,6 +391,26 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Blogener",
+    description:
+      "The AI-powered SAAS solution to generate SEO-optimized blog posts in minutes. Get high-quality content, without sacrificing your time.",
+    technologies: [
+      "OpenAI",
+      "React.js",
+      "Next.js",
+      "Tailwind",
+      "MongoDB",
+      "Auth0",
+      "Stripe",
+      "FontAwesome",
+    ],
+    url: "https://hammerhead-app-p5fmi.ondigitalocean.app/",
+    git: "https://github.com/agpavlik/Blogener",
+    img: blogener,
+    video: blogenerVideo,
+  },
+  {
+    id: 3,
     title: "Flashback-Up",
     description:
       "A React-based SPA that allows users to store remarkable places that they would like to memorize and share with the community.",
@@ -409,7 +431,7 @@ export const projects = [
     video: fbuVideo,
   },
   {
-    id: 3,
+    id: 4,
     title: "Pizzolino",
     description:
       "The application allows users to order pizza fast requiring no user account and no login. User can add multiple pizzas to a card and mark order 'priority'. Also User can provide a GPS location to make delivery easier",
@@ -420,7 +442,7 @@ export const projects = [
     vide0: pizzolinoVideo,
   },
   {
-    id: 4,
+    id: 5,
     title: "Map-Marker",
     description:
       "Single-page application where users can register all the cities that they have ever traveled to. User can explore the world through an intuitive map interface, fetch and store the city by click. Each city has details, including its name, country, and additional notes user wants to attach. User also can delete cities from the list.",
@@ -431,7 +453,7 @@ export const projects = [
     video: mapmarkervideo,
   },
   {
-    id: 5,
+    id: 6,
     title: "PhotoLabs",
     description:
       "A React-based SPA that allows users to view photos in different contexts. User can navigate to different photo categories and mark photos. User can click on a photo to view of its larger version.",
@@ -441,7 +463,7 @@ export const projects = [
     video: photoVideo,
   },
   {
-    id: 6,
+    id: 7,
     title: "Pollarazing",
     description:
       "App allows users to make a decision by creating polls. A creator can add dozens of answer options and comments. The poll is shared through emails. The voting process was realized with drag-and-drop functionality. Result is shown on the bar chart.",
@@ -461,7 +483,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Jungle",
     description:
       "Plants and flowers online shop. Authentication functionality. User can observe various categories of products, fill the basket in, and buy chosen products using the card. The admin can provide some manipulation by adding/deleting products and categories.",

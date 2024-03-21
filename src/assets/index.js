@@ -61,5 +61,7 @@ export { default as pizzolino } from "./work/pizzolino.png";
 export { default as pizzolinoVideo } from "./work/pizzolinoVideo.gif";
 export { default as flashbackup } from "./work/flashbackup.png";
 export { default as fbuVideo } from "./work/fbuVideo.gif";
+export { default as blogener } from "./work/blogener.png";
+export { default as blogenerVideo } from "./work/blogenerVideo.gif";
 
 export { default as Profile } from "./profile.png";
