@@ -25,7 +25,6 @@ import {
   Jest,
   ReactNative,
   ReactNav,
-  Next,
   Leaflet,
   Mocha,
   Linux,
@@ -177,12 +176,6 @@ export const skills = [
     icon: ReactNav,
     category: "frontend",
     url: "https://reactnavigation.org/",
-  },
-  {
-    name: "Next.js",
-    icon: Next,
-    category: "frontend",
-    url: "https://nextjs.org/",
   },
   {
     name: "Bootstrap",
