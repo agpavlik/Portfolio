@@ -31,7 +31,7 @@ function Contact() {
           data-aos-easing="ease-in-out"
         >
           <a
-            href="https://www.linkedin.com/in/alex-pavlyk/"
+            href="https://www.linkedin.com/in/opavlyk/"
             target="_blank"
             rel="noreferrer"
             className="flex gap-4"
@@ -61,7 +61,7 @@ function Contact() {
             </span>
           </a>
           <a
-            href="mailto:olekpavlyk@gmail.com"
+            href="mailto:pavlykolek@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="flex gap-4"

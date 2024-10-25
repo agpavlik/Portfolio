@@ -44,7 +44,7 @@ function About() {
           data-aos-easing="ease-in-out"
         >
           <a
-            href="https://www.linkedin.com/in/alex-pavlyk/"
+            href="https://www.linkedin.com/in/opavlyk/"
             target="_blank"
             rel="noreferrer"
             className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-slate-950 text-white cursor-pointer hover:bg-blue-600"
