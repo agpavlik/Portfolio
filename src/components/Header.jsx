@@ -38,7 +38,7 @@ const Header = () => {
             data-aos-easing="ease-in-out"
             className="text-2xl 2xl:text-4xl font-bold text-blue-600 tracking-wider"
           >
-            FRONTEND DEVELOPER
+            FULL-STACK DEVELOPER
           </h1>
           <p
             data-aos="fade-left"
@@ -48,14 +48,14 @@ const Header = () => {
             data-aos-easing="ease-in-out"
             className="text-lg text-black dark:text-gray-200 mt-5 2xl:mt-10 mr-10"
           >
-            Versatile front-end developer with a proactive approach to learning
+            Versatile full-stack developer with a proactive approach to learning
             and collaboration in rapidly changing environments, dedicated to
             crafting engaging digital compositions.
           </p>
           <div className="mt-10 flex gap-10">
             <div className=" flex items-center justify-center flex-wrap gap-10">
               <a
-                href="https://www.linkedin.com/in/alex-pavlyk/"
+                href="https://www.linkedin.com/in/opavlyk/"
                 target="_blank"
                 rel="noreferrer"
                 className="h-[40px] flex gap-3 items-center justify-center rounded-[5px] shadow-lg bg-slate-950 cursor-pointer hover:bg-blue-600"
