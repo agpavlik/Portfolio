@@ -22,7 +22,7 @@ function About() {
             About Me
           </p>
           <p className="text-lg text-black dark:text-gray-200 leading-10 text-justify">
-            Front-end developer with a commitment to continuous professional
+            Full stack developer with a commitment to continuous professional
             development. I am a self-motivated, organized, and goal-oriented
             person with ability to learn and collaborate in rapidly changing
             environments. I am passionate about creating intuitive web
