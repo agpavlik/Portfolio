@@ -67,24 +67,24 @@ import {
   OpenAI,
 } from "./assets";
 
-export const projectStats = [
-  {
-    name: "Total Projects",
-    value: "200+",
-  },
-  {
-    name: "Website Design",
-    value: "150+",
-  },
-  {
-    name: "Mobile App Design",
-    value: "50",
-  },
-  {
-    name: "Clients worldwide",
-    value: "+86",
-  },
-];
+// export const projectStats = [
+//   {
+//     name: "Total Projects",
+//     value: "200+",
+//   },
+//   {
+//     name: "Website Design",
+//     value: "150+",
+//   },
+//   {
+//     name: "Mobile App Design",
+//     value: "50",
+//   },
+//   {
+//     name: "Clients worldwide",
+//     value: "+86",
+//   },
+// ];
 
 export const skills = [
   {
@@ -387,6 +387,24 @@ export const skills = [
     icon: Nextjs2,
     category: "frontend",
     url: "https://nextjs.org/",
+  },
+  {
+    name: "GitHub Copilot",
+    icon: GitCopilot,
+    category: "AI",
+    url: "https://github.com/features/copilot",
+  },
+  {
+    name: "Cursor AI",
+    icon: Cursor,
+    category: "AI",
+    url: "https://www.cursor.com/",
+  },
+  {
+    name: "ChatGPT",
+    icon: ChatGPT,
+    category: "AI",
+    url: "images/gpt.png",
   },
 ];
 

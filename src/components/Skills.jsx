@@ -43,6 +43,10 @@ function Skills() {
       const filteredData = skills.filter((item) => item.category === "tool");
       setTechSkills(filteredData);
     }
+    if (selectTab === "AI") {
+      const filteredData = skills.filter((item) => item.category === "AI");
+      setTechSkills(filteredData);
+    }
   }, [selectTab]);
 
   return (
@@ -88,6 +92,12 @@ function Skills() {
               className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
             >
               Design
+            </button>
+            <button
+              onClick={() => setSelectTab("AI")}
+              className="text-gray-100 bg-[#04133e] hover:bg-blue-800 focus:bg-blue-800 text-sm border border-solid border-gray-100 py-1 px-4 rounded-[8px]"
+            >
+              AI
             </button>
             <button
               onClick={() => setSelectTab("library")}
