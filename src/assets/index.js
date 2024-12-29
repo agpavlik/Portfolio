@@ -50,6 +50,9 @@ export { default as Auth } from "./auth.png";
 export { default as OpenAI } from "./openAI.png";
 export { default as ReactNative } from "./reactnative.png";
 export { default as ReactNav } from "./reactnav.svg";
+export { default as Cursor } from "./cursor.png";
+export { default as ChatGPT } from "./gpt.png";
+export { default as GitCopilot } from "./githubcopilot.jpg";
 
 export { default as jungleVideo } from "./work/jungle.gif";
 export { default as jungle } from "./work/jungle.png";

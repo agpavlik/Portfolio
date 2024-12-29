@@ -65,6 +65,9 @@ import {
   Supabase,
   Auth,
   OpenAI,
+  GitCopilot,
+  Cursor,
+  ChatGPT,
 } from "./assets";
 
 // export const projectStats = [
